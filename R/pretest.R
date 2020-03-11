@@ -24,7 +24,11 @@ states <- states(cb = TRUE, class = 'sf') %>%
   filter(!str_detect(GEOID, "15|02|60|66|69|72|78")) %>%
   st_transform(102003)
 
-## 
+##
+
+library(RColorBrewer)
+
+##
 
 ggplot() +
   geom_sf(data = states, aes()) +
@@ -38,8 +42,10 @@ ggplot() +
                                     votechoice == "I may vote for or against Donald Trump depending upon whom the Democrats nominate for president." ~ "Undecided",
                                     TRUE ~ votechoice)), 
           aes(colour = vote, fill = vote)) +
+  scale_color_brewer(palette = 'Set1') +
+  scale_fill_brewer(palette = 'Set1') +
   theme_map() +
-  ggsave("vote.png", height = 8, width = 11, dpi = 300)
+  ggsave("vote.png", height = 8, width = 15, dpi = 300)
 
 
 pretest %>%
@@ -143,11 +149,14 @@ employment_us <- map_df(us, function(x) {
 
 ##
 
+library(tictoc)
+
+##
+
 tracts <- 
   read_sf("data/tracts.shp") %>%
-  mutate(state = str_sub(GEOID10, 1, 2)) %>%
-  filter(!str_detect(state, "15|02|60|66|69|72|78")) %>%
-  transmute(GEOID = GEOID10, area = ALAND10) %>%
+  filter(!str_detect(STATEFP, "15|02|60|66|69|72|78")) %>%
+  transmute(GEOID = GEOID, STATEFP = STATEFP, COUNTYFP = COUNTYFP, area = ALAND) %>%
   st_transform(102003)
 
 ##
@@ -162,14 +171,16 @@ census <-
   left_join(tenure_us) %>%
   left_join(employment_us) %>%
   left_join(tracts) %>%
+  drop_na(population) %>%
   st_as_sf() %>%
   mutate(pct_latino = latino / (population + 1),
          pct_foreign = foreign / (population + 1),
          pct_black = black / (population + 1),
          pct_white = white / (population + 1),
-         density = area / (population + 1),
+         density = as.numeric(area) / (population + 1),
          churn = moved_nation + moved_abroad / (population + 1),
-         unemp_rate = unemployed / labor_force)
+         unemp_rate = unemployed / labor_force) %>%
+  select(GEOID, STATEFP, COUNTYFP, everything())
 
 ##
 
@@ -196,10 +207,6 @@ glimpse(community)
 
 ##
 
-library(RColorBrewer)
-
-##
-
 ggplot(community %>%
          st_drop_geometry() %>%
          drop_na(vote) %>%
@@ -217,7 +224,7 @@ ggplot(community %>%
   scale_color_brewer(palette = 'Set1') +
   coord_flip() + 
   theme_rot() +
-  ggsave("area.png", height = 6, width = 8, dpi = 300)
+  ggsave("area.png", height = 8, width = 15, dpi = 300)
   
 ##
 
@@ -277,6 +284,117 @@ ggplot(community %>%
   theme_rot() + 
   ggsave("distance.png", height = 4, width = 6, dpi = 300)
 
+##
 
+restaurants <- 
+  read_sf("data/restaurants.geojson", crs = 4326) %>%
+  st_transform(102003) %>%
+  st_intersection(states) %>%
+  st_coordinates() %>%
+  as_tibble()
+
+coords_respondents <- 
+  community %>%
+  st_coordinates() %>%
+  as_tibble()
+
+##
+
+library(spdep)
+library(FNN)
+
+##
+
+nn <- get.knnx(restaurants, coords_respondents, k = 3)
+
+distances <-
+  as.data.frame(nn$nn.dist) %>%
+  rownames_to_column(var = "respondents") %>%
+  gather(restaurants, dist_restaurant, V1:V3) %>%
+  arrange(as.numeric(respondents)) %>%
+  group_by(respondents) %>%
+  summarise(dist_restaurant = mean(dist_restaurant)) %>%
+  arrange(as.numeric(respondents)) %>% 
+  select(-respondents) %>%
+  bind_cols(community) %>%
+  select(response_id, dist_restaurant)
+
+##
+
+p1 <- 
+  ggplot(community %>%
+         st_drop_geometry() %>%
+         drop_na(vote) %>%
+         left_join(distances) %>%
+         mutate(pct = ntile(dist_restaurant, 100)) %>%
+         filter(pct != 1 & pct != 100) %>%
+         rename(`dist restaurant (m)` = dist_restaurant)) +
+  geom_jitter(aes(vote, `dist restaurant (m)`, colour = vote)) +
+  stat_summary(aes(vote, `dist restaurant (m)`), fun.y = mean, geom = "point", size = 3) +
+  scale_color_brewer(palette = 'Set1') +
+  coord_flip() + 
+  theme_rot() + 
+  ggsave("restaurants.png", height = 4, width = 6, dpi = 300)
+
+##
+
+stations <- 
+  read_sf("data/stations.geojson", crs = 4326) %>%
+  st_transform(102003) %>%
+  st_intersection(states) %>%
+  st_coordinates() %>%
+  as_tibble()
+
+coords_respondents <- 
+  community %>%
+  st_coordinates() %>%
+  as_tibble()
+
+##
+
+library(spdep)
+library(FNN)
+
+##
+
+nn <- get.knnx(stations, coords_respondents, k = 3)
+
+distances <-
+  as.data.frame(nn$nn.dist) %>%
+  rownames_to_column(var = "respondents") %>%
+  gather(stations, dist_station, V1:V3) %>%
+  arrange(as.numeric(respondents)) %>%
+  group_by(respondents) %>%
+  summarise(dist_station = mean(dist_station)) %>%
+  arrange(as.numeric(respondents)) %>% 
+  select(-respondents) %>%
+  bind_cols(community) %>%
+  select(response_id, dist_station)
+
+##
+
+p2 <- 
+  ggplot(community %>%
+         st_drop_geometry() %>%
+         drop_na(vote) %>%
+         left_join(distances) %>%
+         mutate(pct = ntile(dist_station, 100)) %>%
+         filter(pct != 1 & pct != 100) %>%
+         rename(`dist gas station (m)` = dist_station)) +
+  geom_jitter(aes(vote, `dist gas station (m)`, colour = vote)) +
+  stat_summary(aes(vote, `dist gas station (m)`), fun.y = mean, geom = "point", size = 3) +
+  scale_color_brewer(palette = 'Set1') +
+  coord_flip() + 
+  theme_rot() + 
+  ggsave("stations.png", height = 4, width = 6, dpi = 300)
+
+##
+
+library(patchwork)
+
+##
+
+p1 + p2 + plot_layout(guides = 'collect')
+ggsave("distances.png", height = 8, width = 18, dpi = 300)
 
 
