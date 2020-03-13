@@ -397,4 +397,54 @@ library(patchwork)
 p1 + p2 + plot_layout(guides = 'collect')
 ggsave("distances.png", height = 8, width = 18, dpi = 300)
 
+##
 
+bars <- 
+  read_sf("data/bars.geojson", crs = 4326) %>%
+  st_transform(102003) %>%
+  st_intersection(states) %>%
+  st_coordinates() %>%
+  as_tibble()
+
+coords_respondents <- 
+  community %>%
+  st_coordinates() %>%
+  as_tibble()
+
+##
+
+library(spdep)
+library(FNN)
+
+##
+
+nn <- get.knnx(stations, coords_respondents, k = 3)
+
+distances <-
+  as.data.frame(nn$nn.dist) %>%
+  rownames_to_column(var = "respondents") %>%
+  gather(bars, dist_bar, V1:V3) %>%
+  arrange(as.numeric(respondents)) %>%
+  group_by(respondents) %>%
+  summarise(dist_bar = mean(dist_bar)) %>%
+  arrange(as.numeric(respondents)) %>% 
+  select(-respondents) %>%
+  bind_cols(community) %>%
+  select(response_id, dist_bar)
+
+##
+
+p3 <- 
+  ggplot(community %>%
+           st_drop_geometry() %>%
+           drop_na(vote) %>%
+           left_join(distances) %>%
+           mutate(pct = ntile(dist_bar, 100)) %>%
+           filter(pct != 1 & pct != 100) %>%
+           rename(`dist bar (m)` = dist_bar)) +
+  geom_jitter(aes(vote, `dist bar (m)`, colour = vote)) +
+  stat_summary(aes(vote, `dist bar (m)`), fun.y = mean, geom = "point", size = 3) +
+  scale_color_brewer(palette = 'Set1') +
+  coord_flip() + 
+  theme_rot() + 
+  ggsave("bars.png", height = 4, width = 8, dpi = 300)
