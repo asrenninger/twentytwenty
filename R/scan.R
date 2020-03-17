@@ -27,6 +27,10 @@ read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_
   mutate(date = mdy(date)) %>%
   group_by(date) %>%
   summarise(cases = sum(cases)) %>%
+  mutate(cases_lag = lag(cases)) %>%
+  mutate(change = cases - cases_lag) %>%
+  mutate(change_lag = lag(change)) %>%
+  mutate(coefficient = change / change_lag) %>%
   arrange(desc(date))
 
 read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") %>%
