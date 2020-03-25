@@ -80,20 +80,16 @@ library(leaflet)
 
 pal <- colorNumeric("viridis", NULL)
 
-read_csv("https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_time_series/time_series_19-covid-Confirmed.csv") %>%
+read_csv("https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_daily_reports/03-23-2020.csv") %>%
   clean_names() %>%
   filter(country_region == "US") %>%
-  gather(date, cases, x1_22_20:x3_17_20) %>%
-  mutate(date = str_remove_all(date, "x")) %>%
-  mutate(date = str_replace_all(date, "_", "-")) %>%
-  mutate(date = mdy(date)) %>%
-  st_as_sf(coords = c("long", "lat"), remove = FALSE) %>%
-  filter(!province_state %in% states$name) %>%
   group_by(province_state, long, lat) %>%
-  summarise(cases = sum(cases)) %>% 
+  summarise(cases = sum(confirmed),
+            deaths = sum(deaths)) %>% 
+  filter(cases > 0) %>%
   leaflet() %>% 
   addTiles() %>%
-  addCircles(~long, ~lat, popup = ~as.character(cases), radius = ~cases *100, color = ~pal(cases), label = ~as.character(cases))
+  addCircles(~long, ~lat, popup = ~as.character(cases), radius = ~sqrt(cases), color = ~pal(cases), label = ~as.character(cases))
 
 ##
 
@@ -107,5 +103,20 @@ read_csv("https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_da
   group_by(date) %>%
   summarise(cases = sum(cases)) %>%
   arrange(desc(date))
+
+##
+
+covid <- 
+  read_csv("https://github.com/CSSEGISandData/COVID-19/raw/master/csse_covid_19_data/csse_covid_19_daily_reports/03-23-2020.csv") %>%
+  clean_names() %>%
+  filter(country_region == "US") %>%
+  group_by(province_state, long, lat) %>%
+  summarise(cases = sum(confirmed),
+            deaths = sum(deaths)) %>% 
+  filter(cases > 0) %>%
+  st_as_sf(coords = c("long", "lat"), remove = FALSE) %>%
+  filter(!province_state %in% states$name) %>%
+  group_by(province_state, long, lat) %>%
+  summarise(cases = sum(cases))
 
 
