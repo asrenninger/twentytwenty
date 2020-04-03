@@ -214,4 +214,25 @@ p <- p1 + p2 + plot_layout(guides = 'collect') + plot_annotation(caption = "Sour
 
 ggsave("coverage.png", height = 5, width = 16, dpi = 300)
 
+##
+
+library(readxl)
+library(janitor)
+library(lubridate)
+library(geofacet)
+
+claims <- 
+  read_xlsx("data/claims.xlsx") %>%
+  clean_names() %>%
+  drop_na(state) %>%
+  filter(!str_detect(state, "Run Date:|Puerto|Virgin"))
+
+ggplot(rename(claims, name = state), aes(filed_week_ended, initial_claims)) +
+  geom_line(colour = brewer.pal(9, "Set1")[3]) +
+  facet_geo(~ name, grid ="us_state_grid1") +
+  xlab("week") +
+  ylab("filings for unemployment insurance") +
+  theme_hor() + 
+  ggsave("claims.png", height = 10, width = 16, dpi = 300)
+
 
