@@ -235,4 +235,17 @@ ggplot(rename(claims, name = state), aes(filed_week_ended, initial_claims)) +
   theme_hor() + 
   ggsave("claims.png", height = 10, width = 16, dpi = 300)
 
+##
 
+deaths <- read_csv("data/cdc/Provisional_Death_Counts_for_Coronavirus_Disease__COVID-19_.csv") %>%
+  clean_names() 
+
+read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.csv") %>%
+  rename(GEOID = fips) %>%
+  left_join(counties) %>%
+  st_as_sf(crs = 102003) %>%
+  st_transform(4326) %>%
+  st_centroid() %>%
+  group_by(county, state) %>%
+  summarise(cases = sum(cases)) %>%
+  st_write("covid.geojson")
