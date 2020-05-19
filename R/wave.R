@@ -2,12 +2,6 @@ library(foreign)
 library(tidyverse)
 library(janitor)
 
-read.spss("data/appc/WAVE 1 SURVEY-selected/APPC Wave 1_Client_Prelim 2020-05-14 0600.sav") %>%
-  as_tibble() %>%
-  clean_names() %>%
-  ggplot(aes(as.numeric(pabs_longitude), as.numeric(pabs_latitude))) +
-  geom_point()
-
 wave <- read.spss("data/appc/WAVE 1 SURVEY-selected/APPC Wave 1_Client_Prelim 2020-05-14 0600.sav")
   
 coords <- 
@@ -99,13 +93,6 @@ move <- get_estimates(geography = "county",
 
 ##
 
-county_level <-
-  move %>%
-  left_join(area) %>%
-  left_join(live)
-
-##
-
 library(lubridate)
 
 ##
@@ -134,6 +121,15 @@ counts <-
 
 ##
 
+county_level <-
+  move %>%
+  left_join(area) %>%
+  left_join(live) %>%
+  left_join(counts) %>%
+  rename_if(is.numeric, paste0, "_county")
+
+##
+
 library(tigris)
 library(sf)
 
@@ -146,18 +142,6 @@ counties <-
             COUNTYFP,
             area = ALAND) %>%
   filter(!str_detect(STATEFP, "15|02|60|66|69|72|78"))
-
-geo <- 
-  census %>%
-  left_join(counts) %>%
-  left_join(counties) %>%
-  st_as_sf()
-
-coords %>% 
-  mutate(GEOID = str_sub(cbg, 1, 5)) %>%
-  left_join(geo) %>%
-  select(-geometry) %>%
-  write_csv("wave_one_geo.csv")
 
 ##
 
@@ -247,5 +231,14 @@ tract_level <-
   left_join(outs)
 
 ##
+
+geo <- 
+  coords %>%
+  mutate(GEOID = str_sub(cbg, 1, 5)) %>%
+  left_join(county_level) %>%
+  mutate(GEOID = str_sub(cbg, 1, 11)) %>%
+  left_join(tract_level)
+
+write_csv(geo, "wave_one_geo.csv")
 
 
