@@ -99,14 +99,10 @@ move <- get_estimates(geography = "county",
 
 ##
 
-census <-
+county_level <-
   move %>%
   left_join(area) %>%
-  left_join(live) %>%
-  left_join(work) %>%
-  left_join(race) %>%
-  left_join(fors) %>%
-  left_join(outs)
+  left_join(live)
 
 ##
 
@@ -163,6 +159,93 @@ coords %>%
   select(-geometry) %>%
   write_csv("wave_one_geo.csv")
 
+##
 
+us <- unique(fips_codes$state)[1:51]
+
+##
+
+tracts <- reduce(
+  map(us, function(x) {
+    tracts(x) %>%
+      st_as_sf()
+  }), 
+  rbind
+)
+
+tracts <- read_sf("data/tracts.shp")
+
+##
+
+area <- map_df(us, function(x) {
+  get_acs(geography = "tract", state = x,
+          variables = c("B19083_001", "B06011_001", "B25077_001", "B25113_001"), 
+          year = 2018, output = "wide") %>% 
+    rename(gini_coeff = B19083_001E,
+           med_income = B06011_001E,
+           home_price = B25077_001E,
+           rent_price = B25113_001E) %>%
+    select(GEOID, gini_coeff, med_income, home_price, rent_price)
+})
+
+race <- map_df(us, function(x) {
+  get_acs(geography = "tract", state = x,
+          variables = c("B02001_002", "B02001_003"), 
+          year = 2018, output = "wide") %>% 
+    rename(white_num = B02001_002E,
+           black_num = B02001_003E) %>%
+    select(GEOID, white_num, black_num)
+})
+
+work <- map_df(us, function(x) {
+  get_acs(geography = "tract", state = x, 
+          variables = c("C18120_002", "C18120_006", "C18120_003"),
+          year = 2018, output = "wide") %>%
+    rename(lab_force = C18120_002E,
+           tot_un = C18120_006E,
+           tot_em = C18120_003E) %>%
+    select(GEOID, lab_force, tot_un, tot_em) 
+})
+
+live <- map_df(us, function(x) {
+  get_acs(geography = "tract", state = x,
+          variables = c("B01001_001", "B11016_001", "B01002_001E", "B06009_005E"),
+          year = 2018, output = "wide") %>%
+    rename(population = B01001_001E,
+           households = B11016_001E,
+           med_age = B01002_001E,
+           tot_bachelors = B06009_005E) %>%
+    select(GEOID, population, households, med_age, tot_bachelors) 
+})
+
+fors <- map_df(us, function(x) {
+  get_acs(geography = "tract", state = x,
+          variables = c("B05006_124", "B05006_001"),
+          year = 2018, output = "wide") %>%
+    rename(tot_latinos = B05006_124E,
+           tot_foreign = B05006_001E) %>%
+    select(GEOID, tot_latinos, tot_foreign) 
+})
+
+outs <- map_df(us, function(x) {
+  get_acs(geography = "tract", state = x,
+          variables = c("B07001_033", "B07001_081"),
+          year = 2018, output = "wide") %>%
+    rename(tot_moved_nation = B07001_033E,
+           tot_moved_abroad = B07001_081E) %>%
+    select(GEOID, tot_moved_nation, tot_moved_abroad) 
+})
+
+##
+
+tract_level <-
+  area %>%
+  left_join(live) %>%
+  left_join(work) %>%
+  left_join(race) %>%
+  left_join(fors) %>%
+  left_join(outs)
+
+##
 
 
