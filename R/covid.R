@@ -57,6 +57,11 @@ ggsave("region.png", height = 6, width = 18, dpi = 300)
 
 ##
 
+display.brewer.pal(3, 'Set1')
+brewer.pal(3, 'Set1')
+
+##
+
 p1 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.csv") %>%
   filter(date > as_date('2020-02-29')) %>%
   filter(state == "Michigan") %>%
@@ -75,7 +80,7 @@ p1 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.
   arrange(desc(date)) %>%
   ggplot(aes(date, change)) +
   geom_bar(stat = 'identity', show.legend = FALSE) +
-  geom_line(aes(date, avg), colour = "#dd1c77", size = 2) +
+  geom_line(aes(date, avg), colour = "#4DAF4A", size = 2) +
   labs(title = "Change (Macomb)") +
   theme_hor()
 
@@ -114,7 +119,7 @@ p3 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.
   arrange(desc(date)) %>%
   ggplot(aes(date, change)) +
   geom_bar(stat = 'identity', show.legend = FALSE) +
-  geom_line(aes(date, avg), colour = "#dd1c77", size = 2) +
+  geom_line(aes(date, avg), colour = "#4DAF4A", size = 2) +
   labs(title = "Change (Racine/Kenosha)") +
   theme_hor()
 
@@ -152,7 +157,7 @@ p5 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.
   arrange(desc(date)) %>%
   ggplot(aes(date, change)) +
   geom_bar(stat = 'identity', show.legend = FALSE) +
-  geom_line(aes(date, avg), colour = "#dd1c77", size = 2) +
+  geom_line(aes(date, avg), colour = "#4DAF4A", size = 2) +
   labs(title = "Change (Luzerne)") +
   theme_hor()
 
@@ -190,7 +195,7 @@ p7 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.
   arrange(desc(date)) %>%
   ggplot(aes(date, change)) +
   geom_bar(stat = 'identity', show.legend = FALSE) +
-  geom_line(aes(date, avg), colour = "#dd1c77", size = 2) +
+  geom_line(aes(date, avg), colour = "#4DAF4A", size = 2) +
   labs(title = "Change (Pinellas)") +
   theme_hor()
 
@@ -228,7 +233,7 @@ p9 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.
   arrange(desc(date)) %>%
   ggplot(aes(date, change)) +
   geom_bar(stat = 'identity', show.legend = FALSE) +
-  geom_line(aes(date, avg), colour = "#dd1c77", size = 2) +
+  geom_line(aes(date, avg), colour = "#4DAF4A", size = 2) +
   labs(title = "Change (Montgomery)") +
   theme_hor()
 
@@ -282,7 +287,7 @@ p1 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.
   arrange(desc(date)) %>%
   ggplot(aes(date, change)) +
   geom_bar(stat = 'identity', show.legend = FALSE) +
-  geom_line(aes(date, avg), colour = "#dd1c77", size = 2) +
+  geom_line(aes(date, avg), colour = "#4DAF4A", size = 2) +
   labs(title = "Change (Macomb)") +
   theme_hor()
 
@@ -321,7 +326,7 @@ p3 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.
   arrange(desc(date)) %>%
   ggplot(aes(date, change)) +
   geom_bar(stat = 'identity', show.legend = FALSE) +
-  geom_line(aes(date, avg), colour = "#dd1c77", size = 2) +
+  geom_line(aes(date, avg), colour = "#4DAF4A", size = 2) +
   labs(title = "Change (Racine/Kenosha)") +
   theme_hor()
 
@@ -359,7 +364,7 @@ p5 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.
   arrange(desc(date)) %>%
   ggplot(aes(date, change)) +
   geom_bar(stat = 'identity', show.legend = FALSE) +
-  geom_line(aes(date, avg), colour = "#dd1c77", size = 2) +
+  geom_line(aes(date, avg), colour = "#4DAF4A", size = 2) +
   labs(title = "Change (Luzerne)") +
   theme_hor()
 
@@ -397,7 +402,7 @@ p7 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.
   arrange(desc(date)) %>%
   ggplot(aes(date, change)) +
   geom_bar(stat = 'identity', show.legend = FALSE) +
-  geom_line(aes(date, avg), colour = "#dd1c77", size = 2) +
+  geom_line(aes(date, avg), colour = "#4DAF4A", size = 2) +
   labs(title = "Change (Pinellas)") +
   theme_hor()
 
@@ -435,7 +440,7 @@ p9 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.
   arrange(desc(date)) %>%
   ggplot(aes(date, change)) +
   geom_bar(stat = 'identity', show.legend = FALSE) +
-  geom_line(aes(date, avg), colour = "#dd1c77", size = 2) +
+  geom_line(aes(date, avg), colour = "#4DAF4A", size = 2) +
   labs(title = "Change (Montgomery)") +
   theme_hor()
 
@@ -468,3 +473,4 @@ p <- pm / pr / pl / pp + po + plot_annotation(
 )
 
 ggsave("counties_death.png", height = 22, width = 18, dpi = 300)
+

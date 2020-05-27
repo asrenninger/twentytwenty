@@ -93,7 +93,7 @@ library(RColorBrewer)
 
 ggplot(timeseries, 
        aes(day, rolling_avg, colour = factor(year))) +
-  geom_line() +
+  geom_line(size = 0.74) +
   scale_color_brewer(palette = 'Set1', name = "year") + 
   xlab("day of year") +
   ylab("spending per person (rolling average)") +
