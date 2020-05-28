@@ -1,0 +1,544 @@
+group,facility,location,cases,deaths,address,lon,lat
+1,Paramus Veterans Memorial Home,"Paramus, N.J.",264,71,"Paramus Veterans Memorial Home, Paramus, N.J.",-74.0754189,40.9445428
+2,Bergen New Bridge Medical Center nursing home,"Paramus, N.J.",233,26,"Bergen New Bridge Medical Center nursing home, Paramus, N.J.",-74.0754189,40.9445428
+3,FutureCare Lochearn nursing home,"Baltimore, Md.",231,21,"FutureCare Lochearn nursing home, Baltimore, Md.",-76.6121893,39.2903848
+4,Andover Subacute and Rehabilitation Center II,"Andover, N.J.",189,55,"Andover Subacute and Rehabilitation Center II, Andover, N.J.",-74.74210889999999,40.98593109999999
+5,Woodbridge Nursing Pavilion,"Chicago, Ill.",183,17,"Woodbridge Nursing Pavilion, Chicago, Ill.",-87.6297982,41.8781136
+6,The Harborage nursing home,"North Bergen, N.J.",182,31,"The Harborage nursing home, North Bergen, N.J.",-74.012084,40.8042674
+7,Canterbury Care and Rehabilitation Center,"Cedar Grove, N.J.",177,19,"Canterbury Care and Rehabilitation Center, Cedar Grove, N.J.",-74.2290319,40.8517876
+8,Christian Health Care Center,"Wyckoff, N.J.",176,45,"Christian Health Care Center, Wyckoff, N.J.",-74.1729106,41.0095316
+9,Redwood Springs nursing home,"Visalia, Calif.",174,28,"Redwood Springs nursing home, Visalia, Calif.",-119.2920585,36.3302284
+10,Meadowbrook Manor of Bolingbrook,"Bolingbrook, Ill.",173,26,"Meadowbrook Manor of Bolingbrook, Bolingbrook, Ill.",-88.0683955,41.69864159999999
+11,PruittHealth Palmyra nursing home,"Albany, Ga.",172,21,"PruittHealth Palmyra nursing home, Albany, Ga.",-84.15574099999999,31.5785074
+12,Clinton Nursing and Rehabilitation Center,"Clinton, Md.",169,20,"Clinton Nursing and Rehabilitation Center, Clinton, Md.",-76.8983059,38.7651145
+13,Symphony of Morgan Park rehabillitation center,"Chicago, Ill.",169,6,"Symphony of Morgan Park rehabillitation center, Chicago, Ill.",-87.6297982,41.8781136
+14,Hackensack Meridian Health Nursing and Rehab,"Hackensack, N.J.",167,19,"Hackensack Meridian Health Nursing and Rehab, Hackensack, N.J.",-74.0434736,40.8859325
+15,CareOne at New Milford nursing home,"New Milford, N.J.",163,29,"CareOne at New Milford nursing home, New Milford, N.J.",-74.0190281,40.9350986
+16,Gallatin Center for Rehabilitation and Healing,"Gallatin, Tenn.",162,23,"Gallatin Center for Rehabilitation and Healing, Gallatin, Tenn.",-86.4466599,36.3883809
+17,Soldiers' Home in Holyoke veterans center and hospital,"Holyoke, Mass.",161,73,"Soldiers' Home in Holyoke veterans center and hospital, Holyoke, Mass.",-72.6162009,42.2042586
+18,Hammonton Center for Rehabilitation and Nursing,"Hammonton, N.J.",160,20,"Hammonton Center for Rehabilitation and Nursing, Hammonton, N.J.",-74.8023853,39.6365056
+19,Preakness Healthcare Center nursing home,"Wayne, N.J.",160,17,"Preakness Healthcare Center nursing home, Wayne, N.J.",-74.2765441,40.92537249999999
+20,Voorhees Center nursing home,"Voorhees, N.J.",159,26,"Voorhees Center nursing home, Voorhees, N.J.",-74.961517,39.8519447
+21,The Citadel at Salisbury nursing home,"Salisbury, N.C.",154,17,"The Citadel at Salisbury nursing home, Salisbury, N.C.",-80.4742261,35.6709727
+22,Bartley Healthcare Nursing and Rehabilitation,"Jackson, N.J.",153,26,"Bartley Healthcare Nursing and Rehabilitation, Jackson, N.J.",-74.35874729999999,40.0918895
+23,Symphony at Midway rehabillitation center,"Chicago, Ill.",152,6,"Symphony at Midway rehabillitation center, Chicago, Ill.",-87.6297982,41.8781136
+24,Cranford Rehab and Nursing Center,"Cranford, N.J.",151,49,"Cranford Rehab and Nursing Center, Cranford, N.J.",-74.2995928,40.6584212
+25,Brier Oak on Sunset nursing home,"Los Angeles, Calif.",151,4,"Brier Oak on Sunset nursing home, Los Angeles, Calif.",-118.2436849,34.0522342
+26,ManorCare Hinsdale,"Hinsdale, Ill.",147,19,"ManorCare Hinsdale, Hinsdale, Ill.",-87.9370052,41.8008642
+27,AristaCare at Delaire rehabilitation center,"Linden, N.J.",146,27,"AristaCare at Delaire rehabilitation center, Linden, N.J.",-74.24459019999999,40.6220478
+28,Water's Edge Healthcare and Rehabilitation Center,"Trenton, N.J.",146,26,"Water's Edge Healthcare and Rehabilitation Center, Trenton, N.J.",-74.759717,40.2205824
+29,Broomall Rehabilitation and Nursing Center,"Broomall, Pa.",144,25,"Broomall Rehabilitation and Nursing Center, Broomall, Pa.",-75.347048,39.967933
+30,Oakland Rehabilitation and Healthcare Center,"Oakland, N.J.",141,41,"Oakland Rehabilitation and Healthcare Center, Oakland, N.J.",-74.26431430000001,41.0131529
+31,Orchard View Manor nursing home,"East Providence, R.I.",140,40,"Orchard View Manor nursing home, East Providence, R.I.",-71.3700545,41.8137116
+32,CareOne at Ridgewood Avenue nursing home,"Paramus, N.J.",139,22,"CareOne at Ridgewood Avenue nursing home, Paramus, N.J.",-74.0754189,40.9445428
+33,Canterbury Rehabilitation and Healthcare,"Richmond, Va.",136,50,"Canterbury Rehabilitation and Healthcare, Richmond, Va.",-77.4360481,37.5407246
+34,Brookdale Paramus assisted living facility,"Paramus, N.J.",136,24,"Brookdale Paramus assisted living facility, Paramus, N.J.",-74.0754189,40.9445428
+35,Ellicott City Healthcare Center nursing home,"Ellicott City, Md.",135,11,"Ellicott City Healthcare Center nursing home, Ellicott City, Md.",-76.7983067,39.2673283
+36,HudsonView Center for Rehab and Healthcare,"North Bergen, N.J.",134,34,"HudsonView Center for Rehab and Healthcare, North Bergen, N.J.",-74.012084,40.8042674
+37,Elevate Care Chicago North rehabilitation center,"Chicago, Ill.",133,23,"Elevate Care Chicago North rehabilitation center, Chicago, Ill.",-87.6297982,41.8781136
+38,Green Brook Regional geriatric center,"Green Brook, N.J.",133,5,"Green Brook Regional geriatric center, Green Brook, N.J.",-74.4851659,40.6049167
+39,Riverbend Post Acute Rehabilitation,"Kansas City, Kan.",132,36,"Riverbend Post Acute Rehabilitation, Kansas City, Kan.",-94.62678729999999,39.11553139999999
+40,Bria of Forest Edge skilled nursing and rehabilitation,"Chicago, Ill.",132,1,"Bria of Forest Edge skilled nursing and rehabilitation, Chicago, Ill.",-87.6297982,41.8781136
+41,Saint Therese of New Hope nursing home,"New Hope, Minn.",130,47,"Saint Therese of New Hope nursing home, New Hope, Minn.",-93.3866185,45.0380201
+42,Berkshire Place Nursing & Rehabilitation Center,"Pittsfield, R.I.",130,10,"Berkshire Place Nursing & Rehabilitation Center, Pittsfield, R.I.",-73.2453824,42.4500845
+43,Sagepoint Nursing and Rehabilitation Center,"La Plata, Md.",129,35,"Sagepoint Nursing and Rehabilitation Center, La Plata, Md.",-76.97525139999999,38.5292877
+44,Morgantown Care & Rehabilitation Center,"Morgantown, Ky.",129,8,"Morgantown Care & Rehabilitation Center, Morgantown, Ky.",-86.6835998,37.2256023
+45,Life Care Center,"Kirkland, Wash.",128,45,"Life Care Center, Kirkland, Wash.",-122.2059833,47.6768927
+46,Ballenger Creek nursing home,"Frederick, Md.",128,14,"Ballenger Creek nursing home, Frederick, Md.",-77.4105409,39.41426879999999
+47,Hackensack Meridian Health Prospect Heights Care Center,"Hackensack, N.J.",128,10,"Hackensack Meridian Health Prospect Heights Care Center, Hackensack, N.J.",-74.0434736,40.8859325
+48,Fair Havens Center nursing home,"Miami Springs, Fla.",128,8,"Fair Havens Center nursing home, Miami Springs, Fla.",-80.289495,25.8223198
+49,Symphony of Joliet nursing home,"Joliet, Ill.",127,24,"Symphony of Joliet nursing home, Joliet, Ill.",-88.0817251,41.525031
+50,Litchfield Woods Health Care Center,"Torrington, Conn.",126,30,"Litchfield Woods Health Care Center, Torrington, Conn.",-73.1211715,41.8003049
+51,Pleasant View Nursing Home,"Mt. Airy, Md.",126,29,"Pleasant View Nursing Home, Mt. Airy, Md.",-77.154704,39.3762145
+52,Westbury Medical Care and Rehabilitation,"Jackson, Ga.",126,20,"Westbury Medical Care and Rehabilitation, Jackson, Ga.",-83.96602089999999,33.2945651
+53,Hackensack Meridian Health West Caldwell Care Center nursing home,"West Caldwell, N.J.",125,23,"Hackensack Meridian Health West Caldwell Care Center nursing home, West Caldwell, N.J.",-74.3018154,40.8409329
+54,Sadie G. Mays Health and Rehabilitation Center,"Atlanta, Ga.",125,2,"Sadie G. Mays Health and Rehabilitation Center, Atlanta, Ga.",-84.3879824,33.7489954
+55,Cherry Creek Nursing Center,"Aurora, Colo.",124,30,"Cherry Creek Nursing Center, Aurora, Colo.",-104.8319195,39.7294319
+56,Daughters of Miriam nursing home,"Clifton, N.J.",124,30,"Daughters of Miriam nursing home, Clifton, N.J.",-74.16375529999999,40.8584328
+57,Alaris Health at Hamilton Park nursing home,"Jersey City, N.J.",124,18,"Alaris Health at Hamilton Park nursing home, Jersey City, N.J.",-74.0431435,40.7177545
+58,Legacy Transitional Care & Rehabilitation,"Atlanta, Ga.",124,10,"Legacy Transitional Care & Rehabilitation, Atlanta, Ga.",-84.3879824,33.7489954
+59,Alden Terrace of McHenry rehabilitation care,"McHenry, Ill.",123,6,"Alden Terrace of McHenry rehabilitation care, McHenry, Ill.",-88.2667534,42.333355
+60,Brakley Park senior care facility,"Lopatcong Township, N.J.",122,22,"Brakley Park senior care facility, Lopatcong Township, N.J.",-75.16037519999999,40.7127921
+61,Abbott Terrace Health Center,"Waterbury, Conn.",121,38,"Abbott Terrace Health Center, Waterbury, Conn.",-73.0514965,41.5581525
+62,Hampton Ridge Healthcare and Rehabilitation Center,"Toms River, N.J.",121,14,"Hampton Ridge Healthcare and Rehabilitation Center, Toms River, N.J.",-74.1979458,39.9537358
+63,The Heights of Summerlin skilled nursing,"Las Vegas, Nev.",121,5,"The Heights of Summerlin skilled nursing, Las Vegas, Nev.",-115.1398296,36.1699412
+64,Alden Terrace Convalescent Hospital,"Los Angeles, Calif.",119,21,"Alden Terrace Convalescent Hospital, Los Angeles, Calif.",-118.2436849,34.0522342
+65,FutureCare Chesapeake rehabilitation facility,"Arnold, Md.",119,18,"FutureCare Chesapeake rehabilitation facility, Arnold, Md.",-76.50273949999999,39.0320554
+66,Mayfield Care Center nursing home,"Chicago, Ill.",119,6,"Mayfield Care Center nursing home, Chicago, Ill.",-87.6297982,41.8781136
+67,Windsor Park Manor retirement community,"Carol Stream, Ill.",118,21,"Windsor Park Manor retirement community, Carol Stream, Ill.",-88.13479269999999,41.91252859999999
+68,Atrium Post Acute Care,"Wayne, N.J.",117,33,"Atrium Post Acute Care, Wayne, N.J.",-74.2765441,40.92537249999999
+69,Atrium at Park Ridge Post0Acute Care,"Park Ridge, N.J.",117,29,"Atrium at Park Ridge Post0Acute Care, Park Ridge, N.J.",-74.0406956,41.0375968
+70,Healthcare at Foster Creek assisted living facility,"Portland, Ore.",117,28,"Healthcare at Foster Creek assisted living facility, Portland, Ore.",-122.6750261,45.5051064
+71,The Bristol at Tampa Rehabilitation and Nursing Center,"Tampa, Fla.",117,10,"The Bristol at Tampa Rehabilitation and Nursing Center, Tampa, Fla.",-82.4571776,27.950575
+72,Saint Joseph's Health Care and Rehab Center,"Cedar Grove, N.J.",116,27,"Saint Joseph's Health Care and Rehab Center, Cedar Grove, N.J.",-74.2290319,40.8517876
+73,Buckingham Care and Rehabilitation Center,"Norwood, N.J.",115,14,"Buckingham Care and Rehabilitation Center, Norwood, N.J.",-73.96180389999999,40.9981532
+74,Forest Hill Health and Rehabilitation Center,"Forest Hill, Md.",115,6,"Forest Hill Health and Rehabilitation Center, Forest Hill, Md.",-76.3877289,39.5850754
+75,CareOne at Wellington nursing home,"Hackensack, N.J.",114,29,"CareOne at Wellington nursing home, Hackensack, N.J.",-74.0434736,40.8859325
+76,The Jewish Home at Rockleigh nursing home,"Rockleigh , N.J.",114,20,"The Jewish Home at Rockleigh nursing home, Rockleigh , N.J.",-73.930414,41.0003754
+77,Heritage Specialty Care nursing home,"Cedar Rapids, Iowa",113,14,"Heritage Specialty Care nursing home, Cedar Rapids, Iowa",-91.6656232,41.9778795
+78,Southern Oaks Care Center skilled nursing,"Pensacola, Fla.",113,4,"Southern Oaks Care Center skilled nursing, Pensacola, Fla.",-87.2169149,30.42130899999999
+79,Lakeland Health Care Center nursing home,"Haskell, N.J.",112,30,"Lakeland Health Care Center nursing home, Haskell, N.J.",-74.29625519999999,41.0302008
+80,Durham Nursing and Rehabilitation Center,"Durham, N.C.",111,14,"Durham Nursing and Rehabilitation Center, Durham, N.C.",-78.898619,35.9940329
+81,Maple Glen Center nursing home,"Fair Lawn, N.J.",110,25,"Maple Glen Center nursing home, Fair Lawn, N.J.",-74.1318096,40.9403762
+82,FutureCare Old Court nursing home,"Randallstown, Md.",110,11,"FutureCare Old Court nursing home, Randallstown, Md.",-76.79525249999999,39.3673278
+83,PruittHealth 0 Carolina Point nursing home,"Durham, N.C.",109,16,"PruittHealth 0 Carolina Point nursing home, Durham, N.C.",-78.898619,35.9940329
+84,Windermere Health and Rehabilitation Center,"Augusta, Ga.",109,6,"Windermere Health and Rehabilitation Center, Augusta, Ga.",-82.0105148,33.4734978
+85,Abingdon Care and Rehabilitation Center,"Middlebrook, N.J.",108,22,"Abingdon Care and Rehabilitation Center, Middlebrook, N.J.",-74.55346589999999,40.5697866
+86,Emerson Health and Rehabilitation Center,"Emerson, N.J.",108,16,"Emerson Health and Rehabilitation Center, Emerson, N.J.",-74.0262505,40.976209
+87,South Pasadena Care Center nursing home,"South Pasadena, Calif.",107,13,"South Pasadena Care Center nursing home, South Pasadena, Calif.",-118.1503488,34.1161196
+88,Accordius Health nursing home,"Harrisonburg, Va.",106,15,"Accordius Health nursing home, Harrisonburg, Va.",-78.8689155,38.4495688
+89,Villa at Windsor Park nursing home,"Chicago, Ill.",106,14,"Villa at Windsor Park nursing home, Chicago, Ill.",-87.6297982,41.8781136
+90,Kane Community Assisted Living Center 0 Glen Hazel,"Pittsburgh, Pa.",106,12,"Kane Community Assisted Living Center 0 Glen Hazel, Pittsburgh, Pa.",-79.9958864,40.44062479999999
+91,Riderwood assisted living facility,"Calverton, Md.",105,23,"Riderwood assisted living facility, Calverton, Md.",-76.9358082,39.0576091
+92,"Sinai Post0Acute, Nursing and Rehab Center","Newark, N.J.",105,16,"Sinai Post0Acute, Nursing and Rehab Center, Newark, N.J.",-74.1723667,40.735657
+93,Leisure Chateau Care and Rehabilitation Center,"Lakewood, N.J.",105,15,"Leisure Chateau Care and Rehabilitation Center, Lakewood, N.J.",-74.2097014,40.08212899999999
+94,Summit Commons Rehabilitation & Health Care Center,"Providence, R.I.",105,15,"Summit Commons Rehabilitation & Health Care Center, Providence, R.I.",-71.4128343,41.8239891
+95,The Laurels of Chatham skilled nursing and rehabilitation,"Pittsboro, N.C.",105,8,"The Laurels of Chatham skilled nursing and rehabilitation, Pittsboro, N.C.",-79.1772371,35.7201463
+96,Tower Hill Healthcare Center,"South Elgin, Ill.",105,2,"Tower Hill Healthcare Center, South Elgin, Ill.",-88.29229959999999,41.9941938
+97,Riverside Health and Rehabilitation Center,"East Hartford, Conn.",104,47,"Riverside Health and Rehabilitation Center, East Hartford, Conn.",-72.6128339,41.7634219
+98,Preferred Care at Absecon rehabilitation and skilled nursing facility,"Absecon, N.J.",104,5,"Preferred Care at Absecon rehabilitation and skilled nursing facility, Absecon, N.J.",-74.4957076,39.4284503
+99,Southeast Nursing and Rehabilitation Center,"San Antonio, Texas",103,18,"Southeast Nursing and Rehabilitation Center, San Antonio, Texas",-98.49362819999999,29.4241219
+100,AristaCare at Manchester rehabilitation center,"Manchester, N.J.",103,14,"AristaCare at Manchester rehabilitation center, Manchester, N.J.",-74.33928209999999,39.9711696
+101,Park Crescent Healthcare and Rehabilitation Center,"East Orange, N.J.",103,13,"Park Crescent Healthcare and Rehabilitation Center, East Orange, N.J.",-74.2048677,40.767323
+102,Frederick Villa Nursing and Rehabilitation Center,"Catonsville, Md.",103,11,"Frederick Villa Nursing and Rehabilitation Center, Catonsville, Md.",-76.73191609999999,39.272050900000004
+103,PruittHealth Marietta nursing home,"Marietta, Ga.",103,4,"PruittHealth Marietta nursing home, Marietta, Ga.",-84.5499327,33.95260200000001
+104,Marcella Center rehabilitation facility,"Burlington Township, N.J.",102,29,"Marcella Center rehabilitation facility, Burlington Township, N.J.",-74.84588219999999,40.0561471
+105,Dellridge Health and Rehabilitation Center,"Paramus, N.J.",101,16,"Dellridge Health and Rehabilitation Center, Paramus, N.J.",-74.0754189,40.9445428
+106,Lopatcong Center nursing home,"Phillipsburg, N.J.",101,13,"Lopatcong Center nursing home, Phillipsburg, N.J.",-75.1901761,40.69370989999999
+107,Five Oaks Rehab,"Concord, N.C.",101,10,"Five Oaks Rehab, Concord, N.C.",-80.579511,35.4087517
+108,Hamilton Continuing Care Center,"Hamilton, N.J.",100,28,"Hamilton Continuing Care Center, Hamilton, N.J.",-74.6796651,40.2115109
+109,New Grove Manor Center for Rehabilitation and Nursing,"East Orange, N.J.",100,19,"New Grove Manor Center for Rehabilitation and Nursing, East Orange, N.J.",-74.2048677,40.767323
+110,Eldercare Health and Rehabilitation,"Ripley, W.Va.",100,13,"Eldercare Health and Rehabilitation, Ripley, W.Va.",-81.71068509999999,38.8186957
+111,CareOne at Moorestown nursing home,"Moorestown, N.J.",100,12,"CareOne at Moorestown nursing home, Moorestown, N.J.",-74.948886,39.9688817
+112,Ambassador Nursing and Rehabilitation Center,"Chicago, Ill.",100,7,"Ambassador Nursing and Rehabilitation Center, Chicago, Ill.",-87.6297982,41.8781136
+113,Miami Jewish Health nursing home,"Miami, Fla.",99,8,"Miami Jewish Health nursing home, Miami, Fla.",-80.1917902,25.7616798
+114,PruittHealth Macon nursing home,"Macon, Ga.",99,3,"PruittHealth Macon nursing home, Macon, Ga.",-83.6324022,32.8406946
+115,Elmora Hills Healthcare and Rehabilitation Center,"Elizabeth, N.J.",98,17,"Elmora Hills Healthcare and Rehabilitation Center, Elizabeth, N.J.",-74.2107006,40.6639916
+116,Crowne Health Care nursing home,"Mobile, Ala.",98,13,"Crowne Health Care nursing home, Mobile, Ala.",-88.0398912,30.6953657
+117,Atrium Post Acute Care,"Livingston, N.J.",97,20,"Atrium Post Acute Care, Livingston, N.J.",-74.3300842,40.7862871
+118,Forest Manor Health Care Center,"Blairstown, N.J.",97,16,"Forest Manor Health Care Center, Blairstown, N.J.",-74.9589405,40.9831018
+119,Ambassador Nursing and Rehabilitation Center,"Detroit, Mich.",97,13,"Ambassador Nursing and Rehabilitation Center, Detroit, Mich.",-83.0457538,42.331427
+120,Glacier Hills senior living community,"Ann Arbor, Mich.",97,0,"Glacier Hills senior living community, Ann Arbor, Mich.",-83.7430378,42.2808256
+121,Mills Health and Rehabilitation Center,"Mayfield, Ky.",96,16,"Mills Health and Rehabilitation Center, Mayfield, Ky.",-88.6367154,36.7417235
+122,Villa East senior care community,"Sherman, Ill.",96,11,"Villa East senior care community, Sherman, Ill.",-89.60482309999999,39.8936608
+123,Bride Brook Health and Rehabilitation Center,"Niantic, Conn.",96,7,"Bride Brook Health and Rehabilitation Center, Niantic, Conn.",-72.1931338,41.3253756
+124,Golden Crest skilled nursing facility,"North Providence, R.I.",95,30,"Golden Crest skilled nursing facility, North Providence, R.I.",-71.46766389999999,41.8535518
+125,Complete Care at Shorrock Gardens nursing home,"Brick Township, N.J.",95,27,"Complete Care at Shorrock Gardens nursing home, Brick Township, N.J.",-74.1371832,40.0578384
+126,Clark Nursing and Rehabilitation Center,"Clark, N.J.",95,20,"Clark Nursing and Rehabilitation Center, Clark, N.J.",-74.3127631,40.6278031
+127,Arbor Springs Health and Rehab Center,"Opelika, Ala.",95,15,"Arbor Springs Health and Rehab Center, Opelika, Ala.",-85.3782795,32.6454116
+128,AristaCare at Whiting rehabilitation facility,"Whiting, N.J.",95,8,"AristaCare at Whiting rehabilitation facility, Whiting, N.J.",-74.378734,39.9543627
+129,Foothill Acres Rehabilitation and Nursing Center,"Hillsborough, N.J.",94,30,"Foothill Acres Rehabilitation and Nursing Center, Hillsborough, N.J.",-74.6472522,40.5106322
+130,Sapphire Nursing and Rehab,"Tucson, Ariz.",94,0,"Sapphire Nursing and Rehab, Tucson, Ariz.",-110.9747108,32.2226066
+131,Crystal Lake Rehabilitation and Healthcare Center,"Berkeley Township, N.J.",93,23,"Crystal Lake Rehabilitation and Healthcare Center, Berkeley Township, N.J.",-74.1827119,39.8971996
+132,Parkway Pavilion Health and Rehabilitation Center,"Enfield, Conn.",93,18,"Parkway Pavilion Health and Rehabilitation Center, Enfield, Conn.",-72.5441445,42.0027181
+133,Daughters of Israel nursing home,"West Orange, N.J.",93,16,"Daughters of Israel nursing home, West Orange, N.J.",-74.23908279999999,40.7985699
+134,Uptown Health Center rehabilitation center,"Chicago, Ill.",93,13,"Uptown Health Center rehabilitation center, Chicago, Ill.",-87.6297982,41.8781136
+135,Hunterdon Care Center nursing home,"Flemington, N.J.",93,12,"Hunterdon Care Center nursing home, Flemington, N.J.",-74.85933179999999,40.5123258
+136,River's Edge Nursing and Rehabilitation Center,"Prospect, Ky.",93,7,"River's Edge Nursing and Rehabilitation Center, Prospect, Ky.",-85.615517,38.345068
+137,Life Care Center nursing home,"Athens, Tenn.",93,1,"Life Care Center nursing home, Athens, Tenn.",-84.5929898,35.4428512
+138,Life Care Center nursing home,"Richland, Wash.",93,0,"Life Care Center nursing home, Richland, Wash.",-119.2751996,46.28042000000001
+139,St. Joseph's Center senior living facility,"Trumbull, Conn.",92,23,"St. Joseph's Center senior living facility, Trumbull, Conn.",-73.2006639,41.2428563
+140,Wynfield Park Health and Rehabilitation,"Albany, Ga.",92,14,"Wynfield Park Health and Rehabilitation, Albany, Ga.",-84.15574099999999,31.5785074
+141,Burlington Woods nursing home,"Burlington, N.J.",92,7,"Burlington Woods nursing home, Burlington, N.J.",-74.86488729999999,40.071222
+142,Alden Estates of Naperville rehabilitation center,"Naperville, Ill.",91,17,"Alden Estates of Naperville rehabilitation center, Naperville, Ill.",-88.1535352,41.7508391
+143,Virtua Health and Rehabilitation Center at Mt. Holly,"Mount Holly, N.J.",91,14,"Virtua Health and Rehabilitation Center at Mt. Holly, Mount Holly, N.J.",-74.78793929999999,39.9931438
+144,Branford Hills Health Care Center,"Branford, Conn.",91,11,"Branford Hills Health Care Center, Branford, Conn.",-72.81411849999999,41.2799027
+145,Veranda Rehabilitation and Healthcare,"Harlingen, Texas",91,10,"Veranda Rehabilitation and Healthcare, Harlingen, Texas",-97.69610259999999,26.1906306
+146,Brentwood Place One nursing home,"Dallas, Texas",91,9,"Brentwood Place One nursing home, Dallas, Texas",-96.79698789999999,32.7766642
+147,Westpark Neurology and Rehabilitation Center,"Cleveland, Ohio",91,0,"Westpark Neurology and Rehabilitation Center, Cleveland, Ohio",-81.6943605,41.49932
+148,Premier Cadbury at Cherry Hill assisted living facility,"Cherry Hill, N.J.",90,20,"Premier Cadbury at Cherry Hill assisted living facility, Cherry Hill, N.J.",-75.0246312,39.926813
+149,Maywood Center for Health and Rehabilitation,"Maywood, N.J.",90,19,"Maywood Center for Health and Rehabilitation, Maywood, N.J.",-74.06180739999999,40.902599
+150,Genesis at Westfield Center nursing home,"Westfield, N.J.",90,17,"Genesis at Westfield Center nursing home, Westfield, N.J.",-74.3473717,40.6589912
+151,West Shore Health Center nursing home,"Warwick, R.I.",90,15,"West Shore Health Center nursing home, Warwick, R.I.",-71.4161671,41.7001009
+152,Heartland Health and Rehabilitation Care Center,"Hanahan, S.C.",90,9,"Heartland Health and Rehabilitation Care Center, Hanahan, S.C.",-80.0031833,32.9305786
+153,Levindale Hebrew Geriatric Center and Hospital,"Baltimore, Md.",90,6,"Levindale Hebrew Geriatric Center and Hospital, Baltimore, Md.",-76.6121893,39.2903848
+154,Cumberland Healthcare Center,"Cumberland, Md.",89,6,"Cumberland Healthcare Center, Cumberland, Md.",-78.7625185,39.6528654
+155,Bishop Drumm Retirement Center,"Johnston, Iowa",89,0,"Bishop Drumm Retirement Center, Johnston, Iowa",-93.7130493,41.6709834
+156,Waterview Center nursing home,"Cedar Grove, N.J.",88,22,"Waterview Center nursing home, Cedar Grove, N.J.",-74.2290319,40.8517876
+157,Centennial Healthcare Center nursing home,"Greeley, Colo.",88,20,"Centennial Healthcare Center nursing home, Greeley, Colo.",-104.7091322,40.4233142
+158,Atrium Post Acute Care of Wayneview,"Wayne, N.J.",88,20,"Atrium Post Acute Care of Wayneview, Wayne, N.J.",-74.2765441,40.92537249999999
+159,Arbor Terrace at Cascade senior living facility,"Atlanta, Ga.",88,17,"Arbor Terrace at Cascade senior living facility, Atlanta, Ga.",-84.3879824,33.7489954
+160,Birchwood Terrace Rehab and Healthcare,"Burlington, Vt.",88,17,"Birchwood Terrace Rehab and Healthcare, Burlington, Vt.",-73.21207199999999,44.4758825
+161,Larkin Chase Center nursing home,"Bowie, Md.",88,15,"Larkin Chase Center nursing home, Bowie, Md.",-76.77913649999999,39.0067768
+162,Seminole Pavilion Rehabilitation and Nursing Services,"Seminole, Fla.",88,14,"Seminole Pavilion Rehabilitation and Nursing Services, Seminole, Fla.",-82.79121339999999,27.8397466
+163,Loch Raven Center nursing home,"Parkville, Md.",88,8,"Loch Raven Center nursing home, Parkville, Md.",-76.5396875,39.3773292
+164,Abigail House for Nursing and Rehabilitation,"Camden, N.J.",88,7,"Abigail House for Nursing and Rehabilitation, Camden, N.J.",-75.1196199,39.9259463
+165,Complete Care at Bey Lea rehabilitation facility,"Toms River, N.J.",87,13,"Complete Care at Bey Lea rehabilitation facility, Toms River, N.J.",-74.1979458,39.9537358
+166,Complete Care at Green Acres rehabilitation facility,"Toms River, N.J.",87,11,"Complete Care at Green Acres rehabilitation facility, Toms River, N.J.",-74.1979458,39.9537358
+167,Lakeside Health & Wellness Suites nursing home,"Reno, Nev.",86,19,"Lakeside Health & Wellness Suites nursing home, Reno, Nev.",-119.8138027,39.5296329
+168,Manor Pines Convalescent Center,"Fort Lauderdale, Fla.",86,16,"Manor Pines Convalescent Center, Fort Lauderdale, Fla.",-80.13731740000001,26.1224386
+169,CareOne at Valley nursing home,"Westwood, N.J.",86,16,"CareOne at Valley nursing home, Westwood, N.J.",-74.0326395,40.9912087
+170,Fairacres Manor nursing home,"Greeley, Colo.",86,14,"Fairacres Manor nursing home, Greeley, Colo.",-104.7091322,40.4233142
+171,Brightmoor Nursing Center and Senior Living,"Griffin, Ga.",86,14,"Brightmoor Nursing Center and Senior Living, Griffin, Ga.",-84.2640904,33.2467807
+172,JFK Hartwyck at Cedar Brook rehabilitation facility,"Plainfield, N.J.",86,11,"JFK Hartwyck at Cedar Brook rehabilitation facility, Plainfield, N.J.",-74.4073736,40.6337136
+173,Future Care Cherrywood,"Reisterstown, Md.",86,6,"Future Care Cherrywood, Reisterstown, Md.",-76.82942129999999,39.4695489
+174,Orchard Park Health Care Center,"Centennial, Colo.",86,4,"Orchard Park Health Care Center, Centennial, Colo.",-104.8771726,39.5807452
+175,Kimberly Hall North nursing facility,"Windsor, Conn.",85,35,"Kimberly Hall North nursing facility, Windsor, Conn.",-72.64370219999999,41.8525984
+176,Grand Park Convalescent Hospital,"Los Angeles, Calif.",85,24,"Grand Park Convalescent Hospital, Los Angeles, Calif.",-118.2436849,34.0522342
+177,Rosedale Green nursing home,"Covington, Ky.",85,21,"Rosedale Green nursing home, Covington, Ky.",-84.5085536,39.0836712
+178,Hackensack Meridian Health Nursing & Rehab at Brick,"Brick Township, N.J.",85,18,"Hackensack Meridian Health Nursing & Rehab at Brick, Brick Township, N.J.",-74.1371832,40.0578384
+179,Alameda Care Center,"Burbank, Calif.",85,16,"Alameda Care Center, Burbank, Calif.",-118.3089661,34.1808392
+180,Highlands Lake Center senior care,"Lakeland, Fla.",85,12,"Highlands Lake Center senior care, Lakeland, Fla.",-81.9498042,28.0394654
+181,Omni Continuing Care,"Detroit, Mich.",85,12,"Omni Continuing Care, Detroit, Mich.",-83.0457538,42.331427
+182,Providence Healthcare nursing home,"Thomaston, Ga.",85,10,"Providence Healthcare nursing home, Thomaston, Ga.",-84.3265854,32.8881879
+183,Covenant Living at Windsor Park long0term care,"Carol Stream, Ill.",84,19,"Covenant Living at Windsor Park long0term care, Carol Stream, Ill.",-88.13479269999999,41.91252859999999
+184,Fairmont Care rehabilitation center,"Chicago, Ill.",84,13,"Fairmont Care rehabilitation center, Chicago, Ill.",-87.6297982,41.8781136
+185,Regency Care of Silver Spring nursing home,"Silver Spring, Md.",84,12,"Regency Care of Silver Spring nursing home, Silver Spring, Md.",-77.026088,38.99066570000001
+186,Millville Center nursing home,"Millville, N.J.",84,9,"Millville Center nursing home, Millville, N.J.",-75.0393438,39.4020596
+187,Complete Care at Laurelton rehabilitation facility,"Brick Township, N.J.",84,3,"Complete Care at Laurelton rehabilitation facility, Brick Township, N.J.",-74.1371832,40.0578384
+188,Kingston Healthcare Center,"Bakersfield, Calif.",84,1,"Kingston Healthcare Center, Bakersfield, Calif.",-119.0187125,35.3732921
+189,Aspen Hills Healthcare Center,"Pemberton, N.J.",84,0,"Aspen Hills Healthcare Center, Pemberton, N.J.",-74.6829363,39.97205779999999
+190,Burlington House assisted living,"Cincinnati, Ohio",84,0,"Burlington House assisted living, Cincinnati, Ohio",-84.5120196,39.1031182
+191,Llanfair House Care and Rehabilitation Center,"Wayne, N.J.",83,20,"Llanfair House Care and Rehabilitation Center, Wayne, N.J.",-74.2765441,40.92537249999999
+192,Kei0Ai South Bay Healthcare Center,"Gardena, Calif.",83,13,"Kei0Ai South Bay Healthcare Center, Gardena, Calif.",-118.3089624,33.8883487
+193,Preferred Care at Mercer rehabilitation and skilled nursing facility,"Ewing, N.J.",83,13,"Preferred Care at Mercer rehabilitation and skilled nursing facility, Ewing, N.J.",-74.79091249999999,40.2599864
+194,Briar Hill Health Care Residence nursing home,"Middlefield, Ohio",83,13,"Briar Hill Health Care Residence nursing home, Middlefield, Ohio",-81.0737079,41.4619986
+195,Masonic Village senior care community,"Burlington, N.J.",83,12,"Masonic Village senior care community, Burlington, N.J.",-74.86488729999999,40.071222
+196,Ridgewood Center nursing home,"Ridgewood, N.J.",83,10,"Ridgewood Center nursing home, Ridgewood, N.J.",-74.11653129999999,40.9792645
+197,Wesley Glen Retirement Community,"Columbus, Ohio",83,0,"Wesley Glen Retirement Community, Columbus, Ohio",-82.99879419999999,39.9611755
+198,The Resort at Texas City nursing home,"Texas City, Texas",83,0,"The Resort at Texas City nursing home, Texas City, Texas",-94.9027002,29.383845
+199,Golden Hill Rehab Pavilion,"Milford, Conn.",82,23,"Golden Hill Rehab Pavilion, Milford, Conn.",-73.064036,41.2306979
+200,Ridgewood Terrace Nursing Home,"Madisonville, Ky.",82,19,"Ridgewood Terrace Nursing Home, Madisonville, Ky.",-87.4988882,37.32810050000001
+201,Signature Healthcare at Summit Manor Rehabilitation & Wellness Center,"Columbia, Ky.",82,11,"Signature Healthcare at Summit Manor Rehabilitation & Wellness Center, Columbia, Ky.",-85.3063504,37.102841
+202,Grace Living Center nursing home,"Norman, Okla.",82,10,"Grace Living Center nursing home, Norman, Okla.",-97.4394777,35.2225668
+203,New Vista Nursing and Rehabilitation Center,"Sunland, Calif.",82,8,"New Vista Nursing and Rehabilitation Center, Sunland, Calif.",-118.3082747,34.2596475
+204,Midlands Health and Rehabilitation Center,"Columbia, S.C.",82,8,"Midlands Health and Rehabilitation Center, Columbia, S.C.",-81.0348144,34.0007104
+205,Symphony Lincoln Park nursing home,"Chicago, Ill.",82,7,"Symphony Lincoln Park nursing home, Chicago, Ill.",-87.6297982,41.8781136
+206,PowerBack Rehabilitation,"Moorestown, N.J.",82,7,"PowerBack Rehabilitation, Moorestown, N.J.",-74.948886,39.9688817
+207,Community Convalescent Center,"Plant City, Fla.",82,0,"Community Convalescent Center, Plant City, Fla.",-82.1128641,28.0186323
+208,PruittHealth Austell nursing home,"Austell, Ga.",82,0,"PruittHealth Austell nursing home, Austell, Ga.",-84.6343783,33.8126059
+209,ManorCare Health Services 0 Silver Spring nursing home,"Silver Spring, Md.",81,18,"ManorCare Health Services 0 Silver Spring nursing home, Silver Spring, Md.",-77.026088,38.99066570000001
+210,South Mountain Healthcare and Rehabilitation Center,"Union, N.J.",81,13,"South Mountain Healthcare and Rehabilitation Center, Union, N.J.",-74.26316349999999,40.6975898
+211,Life Care Center of Nashoba Valley,"Littleton, Mass.",81,10,"Life Care Center of Nashoba Valley, Littleton, Mass.",-71.5128022,42.5372893
+212,Crest Pointe Rehabilitation & Healthcare Center,"Point Pleasant, N.J.",81,9,"Crest Pointe Rehabilitation & Healthcare Center, Point Pleasant, N.J.",-74.0681931,40.0831714
+213,Crossview Care Center nursing home,"Pineview, Ga.",81,8,"Crossview Care Center nursing home, Pineview, Ga.",-83.501003,32.1101702
+214,Oak Hill Health & Rehabilitation Center,"Pawtucket, R.I.",80,20,"Oak Hill Health & Rehabilitation Center, Pawtucket, R.I.",-71.38255579999999,41.878711
+215,Gracedale Nursing Home,"Nazareth, Pa.",80,19,"Gracedale Nursing Home, Nazareth, Pa.",-75.3096237,40.740375
+216,Touchpoints at Farmington nursing home,"Farmington, Conn.",80,16,"Touchpoints at Farmington nursing home, Farmington, Conn.",-72.79502699999999,41.7360305
+217,Joe0Anne Burgin Nursing Home,"Cuthbert, Ga.",80,15,"Joe0Anne Burgin Nursing Home, Cuthbert, Ga.",-84.7893658,31.7712748
+218,Central Nursing Home,"Chicago, Ill.",80,14,"Central Nursing Home, Chicago, Ill.",-87.6297982,41.8781136
+219,Pinehurst Healthcare & Rehabilitation Center,"Pinehurst, N.C.",80,3,"Pinehurst Healthcare & Rehabilitation Center, Pinehurst, N.C.",-79.4694767,35.1954345
+220,Springbrook Nursing and Rehabilitation Center,"Clayton, N.C.",79,14,"Springbrook Nursing and Rehabilitation Center, Clayton, N.C.",-78.4563914,35.650711
+221,Madison Center nursing home,"Matawan, N.J.",79,11,"Madison Center nursing home, Matawan, N.J.",-74.2295891,40.41482999999999
+222,Appling Nursing and Rehabilitation Pavilion,"Baxley, Ga.",79,9,"Appling Nursing and Rehabilitation Pavilion, Baxley, Ga.",-82.3484618,31.7782514
+223,Windsor Atrium nursing home,"Harlingen, Texas",79,8,"Windsor Atrium nursing home, Harlingen, Texas",-97.69610259999999,26.1906306
+224,Walnut Ridge Nursing and Rehab Center,"Walnut Ridge, Ark.",79,4,"Walnut Ridge Nursing and Rehab Center, Walnut Ridge, Ark.",-90.9559534,36.0684035
+225,Montowese Health and Rehabilitation Center,"North Haven, Conn.",78,10,"Montowese Health and Rehabilitation Center, North Haven, Conn.",-72.8595447,41.39091390000001
+226,Mercerville Center nursing home,"Hamilton, N.J.",78,9,"Mercerville Center nursing home, Hamilton, N.J.",-74.6796651,40.2115109
+227,FutureCare Charles Village nursing home,"Baltimore, Md.",78,7,"FutureCare Charles Village nursing home, Baltimore, Md.",-76.6121893,39.2903848
+228,Burbank Healthcare and Rehabilitation Center,"Burbank, Calif.",78,6,"Burbank Healthcare and Rehabilitation Center, Burbank, Calif.",-118.3089661,34.1808392
+229,Pebble Creek Healthcare Center nursing home,"Akron, Ohio",78,0,"Pebble Creek Healthcare Center nursing home, Akron, Ohio",-81.51900529999999,41.0814447
+230,CareOne at Oradell senior care,"Oradell, N.J.",77,22,"CareOne at Oradell senior care, Oradell, N.J.",-74.0368064,40.9587093
+231,Allendale Community for Senior Living,"Allendale, N.J.",77,21,"Allendale Community for Senior Living, Allendale, N.J.",-74.129032,41.0414857
+232,Inglemoor Rehabilitation & Care Center,"Livingston, N.J.",77,18,"Inglemoor Rehabilitation & Care Center, Livingston, N.J.",-74.3300842,40.7862871
+233,Alaris Health at Rochelle Park nursing home,"Rochelle Park, N.J.",77,14,"Alaris Health at Rochelle Park nursing home, Rochelle Park, N.J.",-74.07512729999999,40.9073328
+234,Kei0Ai Los Angeles Healthcare Center,"Los Angeles, Calif.",77,11,"Kei0Ai Los Angeles Healthcare Center, Los Angeles, Calif.",-118.2436849,34.0522342
+235,Tallahassee Developmental Center intermediate care facility,"Tallahassee, Fla.",77,8,"Tallahassee Developmental Center intermediate care facility, Tallahassee, Fla.",-84.28073289999999,30.4382559
+236,Saint John Paul II Center nursing home,"Danbury, Conn.",76,30,"Saint John Paul II Center nursing home, Danbury, Conn.",-73.4540111,41.394817
+237,Alaris Health at HarborView nursing home,"Jersey City, N.J.",76,20,"Alaris Health at HarborView nursing home, Jersey City, N.J.",-74.0431435,40.7177545
+238,Calvert Manor Health Care Center,"Rising Sun, Md.",76,12,"Calvert Manor Health Care Center, Rising Sun, Md.",-76.06272659999999,39.6978871
+239,PruittHealth Lilburn nursing home,"Lilburn, Ga.",76,11,"PruittHealth Lilburn nursing home, Lilburn, Ga.",-84.14297189999999,33.8901036
+240,Signature Healthcare Center of Waterford nursing home,"Hialeah Gardens, Fla.",76,10,"Signature Healthcare Center of Waterford nursing home, Hialeah Gardens, Fla.",-80.3244957,25.8650961
+241,Augusta Center for Health and Rehabilitation,"Augusta, Maine",76,5,"Augusta Center for Health and Rehabilitation, Augusta, Maine",-69.7794897,44.3106241
+242,Jonesboro Nursing and Rehabilitation Center,"Jonesboro, Ga.",76,3,"Jonesboro Nursing and Rehabilitation Center, Jonesboro, Ga.",-84.3538128,33.5215013
+243,Imperial Healthcare Centre,"Dearborn Heights, Mich.",76,0,"Imperial Healthcare Centre, Dearborn Heights, Mich.",-83.27326269999999,42.3369816
+244,Parker Jewish Institute for Health Care & Rehabilitation,"Queens, N.Y.",75,75,"Parker Jewish Institute for Health Care & Rehabilitation, Queens, N.Y.",-73.7948516,40.7282239
+245,Suwannee Health and Rehabilitation,"Live Oak, Fla.",75,18,"Suwannee Health and Rehabilitation, Live Oak, Fla.",-82.98402000000002,30.2949457
+246,Silverado Beverly Place Memory Care Community,"Los Angeles, Calif.",75,12,"Silverado Beverly Place Memory Care Community, Los Angeles, Calif.",-118.2436849,34.0522342
+247,CareOne at Cresskill rehabilitation facility,"Cresskill, N.J.",75,8,"CareOne at Cresskill rehabilitation facility, Cresskill, N.J.",-73.9593041,40.9414874
+248,Bergen County Health Care Center,"Rockleigh, N.J.",75,8,"Bergen County Health Care Center, Rockleigh, N.J.",-73.930414,41.0003754
+249,Jewell Care Center nursing home,"Denver, Colo.",75,7,"Jewell Care Center nursing home, Denver, Colo.",-104.990251,39.7392358
+250,Bostick Nursing Center,"Milledgeville, Ga.",75,6,"Bostick Nursing Center, Milledgeville, Ga.",-83.2320991,33.0801429
+251,Horizon Health and Rehabilitation Center,"Las Vegas, Nev.",75,6,"Horizon Health and Rehabilitation Center, Las Vegas, Nev.",-115.1398296,36.1699412
+252,PARCway Post Acute Recovery,"Oklahoma City, Okla.",75,4,"PARCway Post Acute Recovery, Oklahoma City, Okla.",-97.5164276,35.4675602
+253,Magnolia Rehabilitation and Nursing Center,"Riverside, Calif.",75,0,"Magnolia Rehabilitation and Nursing Center, Riverside, Calif.",-117.3754942,33.9806005
+254,St. Mary's Alzheimer's Center nursing home,"Columbiana, Ohio",75,0,"St. Mary's Alzheimer's Center nursing home, Columbiana, Ohio",-80.69396429999999,40.88839309999999
+255,"Regency Jewish Heritage Post0Acute, Rehab and Nursing Center","Somerset, N.J.",74,23,"Regency Jewish Heritage Post0Acute, Rehab and Nursing Center, Somerset, N.J.",-74.48848679999999,40.497604
+256,Apple Rehab nursing home,"Rocky Hill, Conn.",74,17,"Apple Rehab nursing home, Rocky Hill, Conn.",-72.66557569999999,41.6572525
+257,Complete Care at Green Knoll rehabilitation facility,"Bridgewater, N.J.",74,10,"Complete Care at Green Knoll rehabilitation facility, Bridgewater, N.J.",-74.6049061,40.5939636
+258,Hamilton Grove Healthcare and Rehabilitation Center,"Hamilton, N.J.",74,10,"Hamilton Grove Healthcare and Rehabilitation Center, Hamilton, N.J.",-74.6796651,40.2115109
+259,Brooke Grove Retirement Village,"Sandy Spring, Md.",74,9,"Brooke Grove Retirement Village, Sandy Spring, Md.",-77.0262286,39.1495278
+260,Treyburn Rehabilitation Center,"Durham, N.C.",74,8,"Treyburn Rehabilitation Center, Durham, N.C.",-78.898619,35.9940329
+261,Briarcliff Skilled Nursing Center,"Carthage, Texas",74,6,"Briarcliff Skilled Nursing Center, Carthage, Texas",-94.3374199,32.1573841
+262,New London Rehab and Care nursing home,"Waterford, Conn.",74,1,"New London Rehab and Care nursing home, Waterford, Conn.",-72.164816,41.3542395
+263,Sheriden Woods Health Care Center nursing home,"Bristol, Conn.",73,29,"Sheriden Woods Health Care Center nursing home, Bristol, Conn.",-72.9492703,41.67176480000001
+264,Shady Knoll Health Center,"Seymour, Conn.",73,29,"Shady Knoll Health Center, Seymour, Conn.",-73.07475339999999,41.397146
+265,Bell Convalescent Hospital,"Bell, Calif.",73,25,"Bell Convalescent Hospital, Bell, Calif.",-118.1870156,33.9775142
+266,Elizabeth Nursing and Rehabilitation Center,"Elizabeth, N.J.",73,20,"Elizabeth Nursing and Rehabilitation Center, Elizabeth, N.J.",-74.2107006,40.6639916
+267,Milford Health and Rehabilitation Center,"Milford, Conn.",73,19,"Milford Health and Rehabilitation Center, Milford, Conn.",-73.064036,41.2306979
+268,Willow Springs Rehabilitation and Healthcare Center,"Brick Township, N.J.",73,14,"Willow Springs Rehabilitation and Healthcare Center, Brick Township, N.J.",-74.1371832,40.0578384
+269,Riviera Palms Rehabilitation Center,"Palmetto, Fla.",73,9,"Riviera Palms Rehabilitation Center, Palmetto, Fla.",-82.57231929999999,27.5214269
+270,Trinity Center at Luther Park nursing home,"Des Moines, Iowa",73,0,"Trinity Center at Luther Park nursing home, Des Moines, Iowa",-93.6249593,41.5868353
+271,CareOne at Teaneck nursing home,"Teaneck, N.J.",72,25,"CareOne at Teaneck nursing home, Teaneck, N.J.",-74.0116536,40.8932469
+272,Cassena Care nursing home,"Stamford, Conn.",72,16,"Cassena Care nursing home, Stamford, Conn.",-73.5387341,41.0534302
+273,Fairlane Senior Care and Rehab Center,"Detroit, Mich.",72,16,"Fairlane Senior Care and Rehab Center, Detroit, Mich.",-83.0457538,42.331427
+274,Braden River Rehabilitation Center,"Bradenton, Fla.",72,14,"Braden River Rehabilitation Center, Bradenton, Fla.",-82.5748194,27.4989278
+275,Alaris Health at St. Mary's rehabilitation facility,"Orange, N.J.",72,12,"Alaris Health at St. Mary's rehabilitation facility, Orange, N.J.",-74.2326478,40.7706187
+276,Juniper Village at Aurora Memory Care,"Aurora, Colo.",72,10,"Juniper Village at Aurora Memory Care, Aurora, Colo.",-104.8319195,39.7294319
+277,Townsend Park Health and Rehabilitation nursing home,"Cartersville, Ga.",72,10,"Townsend Park Health and Rehabilitation nursing home, Cartersville, Ga.",-84.7999382,34.1650972
+278,Windsor Gardens Care Center nursing home,"East Orange, N.J.",72,9,"Windsor Gardens Care Center nursing home, East Orange, N.J.",-74.2048677,40.767323
+279,Mercy Health West Park senior living,"Cincinnati, Ohio",72,0,"Mercy Health West Park senior living, Cincinnati, Ohio",-84.5120196,39.1031182
+280,Newington Rapid Recovery Rehab Center,"Newington, Conn.",71,20,"Newington Rapid Recovery Rehab Center, Newington, Conn.",-72.7228293,41.6972996
+281,Stratford Manor Rehabilitation and Care Center,"West Orange, N.J.",71,16,"Stratford Manor Rehabilitation and Care Center, West Orange, N.J.",-74.23908279999999,40.7985699
+282,Torrance Care Center West nursing home,"Torrance, Calif.",71,13,"Torrance Care Center West nursing home, Torrance, Calif.",-118.3406288,33.8358492
+283,The Peaks Care Center nursing home,"Longmont, Colo.",71,11,"The Peaks Care Center nursing home, Longmont, Colo.",-105.1019275,40.1672068
+284,Lions Gate assisted living facility,"Voorhees, N.J.",71,11,"Lions Gate assisted living facility, Voorhees, N.J.",-74.961517,39.8519447
+285,Burlington Health and Rehabilitation,"Burlington, Vt.",71,10,"Burlington Health and Rehabilitation, Burlington, Vt.",-73.21207199999999,44.4758825
+286,Grace Heights Health & Rehab Center,"Morganton, N.C.",71,8,"Grace Heights Health & Rehab Center, Morganton, N.C.",-81.6848188,35.7454071
+287,Carlyle Senior Care,"Florence, S.C.",71,3,"Carlyle Senior Care, Florence, S.C.",-79.7625625,34.1954331
+288,Scioto Community nursing home,"Columbus, Ohio",71,0,"Scioto Community nursing home, Columbus, Ohio",-82.99879419999999,39.9611755
+289,Spring Meadows nursing home,"Holland, Ohio",71,0,"Spring Meadows nursing home, Holland, Ohio",-83.711604,41.621718
+290,Landmark of Des Plaines nursing home,"Des Plaines, Ill.",70,15,"Landmark of Des Plaines nursing home, Des Plaines, Ill.",-87.88339909999999,42.0333623
+291,OakPointe Senior Care and Rehab Center,"Detroit, Mich.",70,8,"OakPointe Senior Care and Rehab Center, Detroit, Mich.",-83.0457538,42.331427
+292,Beacon Care Center nursing home,"Chicago, Ill.",70,7,"Beacon Care Center nursing home, Chicago, Ill.",-87.6297982,41.8781136
+293,Extended Care Hospital nursing home,"Riverside, Calif.",70,0,"Extended Care Hospital nursing home, Riverside, Calif.",-117.3754942,33.9806005
+294,Fort Myers Rehabilitation and Nursing Center,"Fort Myers, Fla.",70,0,"Fort Myers Rehabilitation and Nursing Center, Fort Myers, Fla.",-81.8723084,26.640628
+295,Trinity Cary Center skilled nursing,"Round Rock, Texas",70,0,"Trinity Cary Center skilled nursing, Round Rock, Texas",-97.678896,30.5082551
+296,Louisburg Healthcare & Rehabilitation Center,"Louisburg, N.C.",69,18,"Louisburg Healthcare & Rehabilitation Center, Louisburg, N.C.",-78.30110599999999,36.0990393
+297,Woodcliff Lake Health & Rehabilitation Center,"Woodcliff Lake, N.J.",69,14,"Woodcliff Lake Health & Rehabilitation Center, Woodcliff Lake, N.J.",-74.06652969999999,41.0234304
+298,Arden House nursing home,"Hamden, Conn.",69,12,"Arden House nursing home, Hamden, Conn.",-72.9026064,41.3838782
+299,Sierra Rehabilitation and Care Community,"Lakewood, Colo.",69,11,"Sierra Rehabilitation and Care Community, Lakewood, Colo.",-105.0813734,39.7047095
+300,South River Healthcare Center,"Edgewater, Md.",69,10,"South River Healthcare Center, Edgewater, Md.",-76.5629398,38.94056399999999
+301,Southern Ocean Center rehabilitation center,"Manahawkin, N.J.",69,10,"Southern Ocean Center rehabilitation center, Manahawkin, N.J.",-74.2587527,39.695397
+302,Sinai Plaza Rehabilitation and Skilled Nursing,"Miami, Fla.",69,7,"Sinai Plaza Rehabilitation and Skilled Nursing, Miami, Fla.",-80.1917902,25.7616798
+303,Forest Street Compassionate Care Center nursing home,"Denver, Colo.",69,6,"Forest Street Compassionate Care Center nursing home, Denver, Colo.",-104.990251,39.7392358
+304,Manatee Springs Rehabilitation and Nursing Center,"East Bradenton, Fla.",69,5,"Manatee Springs Rehabilitation and Nursing Center, East Bradenton, Fla.",-82.5748194,27.4989278
+305,Universal Health Lillington nursing home,"Lillington, N.C.",69,4,"Universal Health Lillington nursing home, Lillington, N.C.",-78.8158528,35.39932700000001
+306,Signature HealthCARE of Buckhead nursing home,"Atlanta, Ga.",69,1,"Signature HealthCARE of Buckhead nursing home, Atlanta, Ga.",-84.3879824,33.7489954
+307,St. Francis Manor nursing home,"Grinnell, Iowa",69,0,"St. Francis Manor nursing home, Grinnell, Iowa",-92.7232456,41.74340919999999
+308,Sunrise View Assisted Living,"Everett, Wash.",69,0,"Sunrise View Assisted Living, Everett, Wash.",-122.2020795,47.9789848
+309,Altercare Alliance nursing home,"Alliance, Ohio",68,18,"Altercare Alliance nursing home, Alliance, Ohio",-81.10593089999999,40.9153362
+310,Alaris Health at Kearny nursing home,"Kearny, N.J.",68,16,"Alaris Health at Kearny nursing home, Kearny, N.J.",-74.1454214,40.7684342
+311,Autumn Lake Healthcare at Chestertown nursing home,"Chestertown, Md.",68,15,"Autumn Lake Healthcare at Chestertown nursing home, Chestertown, Md.",-76.0690036,39.21886629999999
+312,Collingswood Rehabilitation and Healthcare Center,"Rockville, Md.",68,14,"Collingswood Rehabilitation and Healthcare Center, Rockville, Md.",-77.1527578,39.0839973
+313,Brighton Gardens of Prairie Village assisted living facility,"Prairie Village, Kan.",68,10,"Brighton Gardens of Prairie Village assisted living facility, Prairie Village, Kan.",-94.6335684,38.9916726
+314,ManorCare Health Services nursing home,"Mountainside, N.J.",68,10,"ManorCare Health Services nursing home, Mountainside, N.J.",-74.3573722,40.6723242
+315,Christian City Skilled Nursing and Rehabilitation,"Union City, Ga.",68,8,"Christian City Skilled Nursing and Rehabilitation, Union City, Ga.",-84.5424299,33.5870558
+316,ManorCare Health Services,"Denver, Colo.",68,7,"ManorCare Health Services, Denver, Colo.",-104.990251,39.7392358
+317,Northampton Manor Nursing and Rehabilitation Center,"Frederick, Md.",68,7,"Northampton Manor Nursing and Rehabilitation Center, Frederick, Md.",-77.4105409,39.41426879999999
+318,ManorCare Health Services 0 Wheaton nursing home,"Wheaton, Md.",68,5,"ManorCare Health Services 0 Wheaton nursing home, Wheaton, Md.",-77.0517746,39.0414899
+319,Westland Convalescent and Rehab Center,"Westland, Mich.",68,0,"Westland Convalescent and Rehab Center, Westland, Mich.",-83.400211,42.32420399999999
+320,Family of Caring at Ridgewood nursing home,"Ridgewood, N.J.",67,15,"Family of Caring at Ridgewood nursing home, Ridgewood, N.J.",-74.11653129999999,40.9792645
+321,Willow Creek Rehabilitation and Care Center,"Franklin Township, N.J.",67,14,"Willow Creek Rehabilitation and Care Center, Franklin Township, N.J.",-74.5228916,40.4933734
+322,Cambridge Rehabilitation and Healthcare Center,"Moorestown, N.J.",67,12,"Cambridge Rehabilitation and Healthcare Center, Moorestown, N.J.",-74.948886,39.9688817
+323,Greer Rehabilitation and Healthcare Center,"Greer, S.C.",67,9,"Greer Rehabilitation and Healthcare Center, Greer, S.C.",-82.2270568,34.9387279
+324,The Fountains at Crystal Lake senior living community,"Crystal Lake, Ill.",67,8,"The Fountains at Crystal Lake senior living community, Crystal Lake, Ill.",-88.31619649999999,42.2411344
+325,Brookhaven Health Care Facility rehabilitation center,"East Orange, N.J.",67,8,"Brookhaven Health Care Facility rehabilitation center, East Orange, N.J.",-74.2048677,40.767323
+326,Sunrise Senior Living,"Paramus, N.J.",67,8,"Sunrise Senior Living, Paramus, N.J.",-74.0754189,40.9445428
+327,Carlyle Healthcare Center,"Carlyle, Ill.",67,7,"Carlyle Healthcare Center, Carlyle, Ill.",-89.3725796,38.6103264
+328,Autumn Lake Healthcare skilled nursing facility,"New Britain, Conn.",67,6,"Autumn Lake Healthcare skilled nursing facility, New Britain, Conn.",-72.7795419,41.6612104
+329,AristaCare rehabilitation facility,"Cherry Hill, N.J.",67,6,"AristaCare rehabilitation facility, Cherry Hill, N.J.",-75.0246312,39.926813
+330,Briarwood Health and Rehab Center,"Tucker, Ga.",67,4,"Briarwood Health and Rehab Center, Tucker, Ga.",-84.2171424,33.8545479
+331,Monroe Rehab Center nursing home,"Monroe, N.C.",67,4,"Monroe Rehab Center nursing home, Monroe, N.C.",-80.5495112,34.9854275
+332,Autumn Lake Healthcare at Pikesville nursing home,"Pikesville, Md.",67,3,"Autumn Lake Healthcare at Pikesville nursing home, Pikesville, Md.",-76.7224727,39.3742729
+333,Summerset assisted living facility,"Atlanta, Ga.",67,0,"Summerset assisted living facility, Atlanta, Ga.",-84.3879824,33.7489954
+334,Saybrook Landing rehabilitation facility,"Ashtabula, Ohio",67,0,"Saybrook Landing rehabilitation facility, Ashtabula, Ohio",-80.7898089,41.8650534
+335,Milford Manor nursing home,"West Milford, N.J.",66,18,"Milford Manor nursing home, West Milford, N.J.",-74.3673254,41.1311292
+336,CareOne at Evesham nursing home,"Marlton, N.J.",66,14,"CareOne at Evesham nursing home, Marlton, N.J.",-74.9218324,39.8912248
+337,New Community Extended Care Facility,"Newark, N.J.",66,12,"New Community Extended Care Facility, Newark, N.J.",-74.1723667,40.735657
+338,Alaris Health at Cedar Grove nursing home,"Cedar Grove, N.J.",66,10,"Alaris Health at Cedar Grove nursing home, Cedar Grove, N.J.",-74.2290319,40.8517876
+339,Unity Health And Rehabilitation Center,"Miami, Fla.",66,7,"Unity Health And Rehabilitation Center, Miami, Fla.",-80.1917902,25.7616798
+340,Sandy Springs Health and Rehabilitation Center,"Atlanta, Ga.",66,7,"Sandy Springs Health and Rehabilitation Center, Atlanta, Ga.",-84.3879824,33.7489954
+341,Meadowbrook Health and Rehab,"Tucker, Ga.",66,7,"Meadowbrook Health and Rehab, Tucker, Ga.",-84.2171424,33.8545479
+342,Frontier Health and Rehabilitation,"St. Charles, Mo.",66,6,"Frontier Health and Rehabilitation, St. Charles, Mo.",-90.4974359,38.7881062
+343,Kensington Healthcare Center nursing home,"Kensington, Md.",66,2,"Kensington Healthcare Center nursing home, Kensington, Md.",-77.0763669,39.0256651
+344,Samaritan Manor Rehabilitation and Skilled Nursing,"Detroit, Mich.",66,0,"Samaritan Manor Rehabilitation and Skilled Nursing, Detroit, Mich.",-83.0457538,42.331427
+345,Plaza Healthcare and Rehabilitation Center,"Elizabeth, N.J.",65,23,"Plaza Healthcare and Rehabilitation Center, Elizabeth, N.J.",-74.2107006,40.6639916
+346,Atria Cranford assisted living,"Cranford, N.J.",65,22,"Atria Cranford assisted living, Cranford, N.J.",-74.2995928,40.6584212
+347,Clover Meadows Healthcare and Rehab Center,"Lawrenceville, N.J.",65,17,"Clover Meadows Healthcare and Rehab Center, Lawrenceville, N.J.",-74.7361013,40.3016375
+348,Mount St. Rita nursing home,"Cumberland, R.I.",65,15,"Mount St. Rita nursing home, Cumberland, R.I.",-71.4061876,41.9721816
+349,Scalabrini Villa skilled nursing and rehabilitation center,"North Kingstown, R.I.",65,15,"Scalabrini Villa skilled nursing and rehabilitation center, North Kingstown, R.I.",-71.4536835,41.5568315
+350,Oakland Grove Health Care Center,"Woonsocket, R.I.",65,15,"Oakland Grove Health Care Center, Woonsocket, R.I.",-71.51478390000001,42.00287609999999
+351,Maefair Health Care Center nursing home,"Trumbull, Conn.",65,14,"Maefair Health Care Center nursing home, Trumbull, Conn.",-73.2006639,41.2428563
+352,Dawson Health and Rehabilitation,"Dawson, Ga.",65,14,"Dawson Health and Rehabilitation, Dawson, Ga.",-84.4465826,31.7735001
+353,The Cliffs At Eagle Rock assisted living facility,"West Orange, N.J.",65,14,"The Cliffs At Eagle Rock assisted living facility, West Orange, N.J.",-74.23908279999999,40.7985699
+354,Kimberly Hall South nursing home,"Windsor, Conn.",65,12,"Kimberly Hall South nursing home, Windsor, Conn.",-72.64370219999999,41.8525984
+355,Boulder Manor nursing home,"Boulder, Colo.",65,7,"Boulder Manor nursing home, Boulder, Colo.",-105.2705456,40.0149856
+356,Jewish Home Assisted Living,"River Vale, N.J.",65,6,"Jewish Home Assisted Living, River Vale, N.J.",-74.01197359999999,41.0147679
+357,Autumn Hills Health Care Center,"Glendale, Calif.",65,5,"Autumn Hills Health Care Center, Glendale, Calif.",-118.255075,34.1425078
+358,Rose Garden Nursing and Rehabilitation Center,"Toms River, N.J.",65,5,"Rose Garden Nursing and Rehabilitation Center, Toms River, N.J.",-74.1979458,39.9537358
+359,Woonsocket Health & Rehabilitation Centre,"Woonsocket, R.I.",65,5,"Woonsocket Health & Rehabilitation Centre, Woonsocket, R.I.",-71.51478390000001,42.00287609999999
+360,Regency Post0Acute and Long0Term Care,"Taylor, Mich.",65,0,"Regency Post0Acute and Long0Term Care, Taylor, Mich.",-83.2696509,42.240872
+361,Regency House Nursing and Rehabilitation Center,"Wallingford, Conn.",64,19,"Regency House Nursing and Rehabilitation Center, Wallingford, Conn.",-72.8230736,41.4570108
+362,Homestead Rehabilitation and Health Care Center,"Newton, N.J.",64,17,"Homestead Rehabilitation and Health Care Center, Newton, N.J.",-74.7526651,41.0581527
+363,Eben Ezer Lutheran Care Center nursing home,"Brush, Colo.",64,12,"Eben Ezer Lutheran Care Center nursing home, Brush, Colo.",-103.6238367,40.2588686
+364,Laurel Manor Care Center nursing home,"Colorado Springs, Colo.",64,12,"Laurel Manor Care Center nursing home, Colorado Springs, Colo.",-104.8213634,38.8338816
+365,Lynwood Healthcare Center nursing home,"Lynwood, Calif.",64,10,"Lynwood Healthcare Center nursing home, Lynwood, Calif.",-118.2114603,33.930293
+366,Country Arch Care Center nursing home,"Pittstown, N.J.",64,9,"Country Arch Care Center nursing home, Pittstown, N.J.",-74.95849539999999,40.5828697
+367,Wayne Nursing & Rehabilitation Center,"Wayne, W.Va.",64,7,"Wayne Nursing & Rehabilitation Center, Wayne, W.Va.",-82.4423747,38.2214748
+368,Providence 0 A Diversicare Transitional Care Community,"New Albany, Ind.",64,5,"Providence 0 A Diversicare Transitional Care Community, New Albany, Ind.",-85.8241312,38.2856247
+369,Windsor Care Center of Cheviot Hills,"Los Angeles, Calif.",64,3,"Windsor Care Center of Cheviot Hills, Los Angeles, Calif.",-118.2436849,34.0522342
+370,Powder Springs Transitional Care and Rehab,"Powder Springs, Ga.",64,1,"Powder Springs Transitional Care and Rehab, Powder Springs, Ga.",-84.683824,33.8595491
+371,Early Memorial Nursing Facility,"Blakely, Ga.",63,18,"Early Memorial Nursing Facility, Blakely, Ga.",-84.93409199999999,31.3776754
+372,Victoria Manor nursing home,"North Cape May, N.J.",63,14,"Victoria Manor nursing home, North Cape May, N.J.",-74.9579523,38.9820569
+373,Wilson Health Care Center at Asbury Methodist Village,"Gaithersburg, Md.",63,12,"Wilson Health Care Center at Asbury Methodist Village, Gaithersburg, Md.",-77.2016062,39.1439689
+374,Cassena Care skilled nursing facility,"Norwalk, Conn.",63,11,"Cassena Care skilled nursing facility, Norwalk, Conn.",-73.4081575,41.11774399999999
+375,Harmony Village At CareOne Paramus assisted living,"Paramus, N.J.",63,10,"Harmony Village At CareOne Paramus assisted living, Paramus, N.J.",-74.0754189,40.9445428
+376,Calhoun Health Care Center,"Calhoun, Ga.",63,9,"Calhoun Health Care Center, Calhoun, Ga.",-84.9510542,34.502587
+377,Holland Christian Home senior community,"North Haledon, N.J.",63,9,"Holland Christian Home senior community, North Haledon, N.J.",-74.1859781,40.9550981
+378,Roselane Health & Rehabilitation,"Marietta, Ga.",63,6,"Roselane Health & Rehabilitation, Marietta, Ga.",-84.5499327,33.95260200000001
+379,Heartland Health Care Center nursing home,"Orange Park, Fla.",63,4,"Heartland Health Care Center nursing home, Orange Park, Fla.",-81.706484,30.1660736
+380,The Laurels of Hendersonville nursing home,"Hendersonville, N.C.",63,3,"The Laurels of Hendersonville nursing home, Hendersonville, N.C.",-82.4609528,35.3187279
+381,Valley House Rehabilitation Center,"Santa Clara, Calif.",63,1,"Valley House Rehabilitation Center, Santa Clara, Calif.",-121.9552356,37.3541079
+382,Royal Suites Healthcare and Rehabilitation Center,"Galloway, N.J.",63,0,"Royal Suites Healthcare and Rehabilitation Center, Galloway, N.J.",-74.5596879,39.4928235
+383,Chelsea Place Care Center rehabilitation facility,"Hartford, Conn.",62,24,"Chelsea Place Care Center rehabilitation facility, Hartford, Conn.",-72.6733723,41.7658043
+384,The Woodlands assisted living facility,"Plainfield, N.J.",62,18,"The Woodlands assisted living facility, Plainfield, N.J.",-74.4073736,40.6337136
+385,Pelham Parkway nursing home,"Pelham, Ga.",62,14,"Pelham Parkway nursing home, Pelham, Ga.",-84.1518466,31.1276849
+386,Otterbein SeniorLife assisted living and skilled nursing,"Franklin, Ind.",62,12,"Otterbein SeniorLife assisted living and skilled nursing, Franklin, Ind.",-86.0549863,39.4806055
+387,Claridge House nursing home,"North Miami, Fla.",62,11,"Claridge House nursing home, North Miami, Fla.",-80.1867138,25.8900949
+388,The Waters of White Hall rehabilitation center,"White Hall, Ark.",62,10,"The Waters of White Hall rehabilitation center, White Hall, Ark.",-92.09097659999999,34.2739862
+389,Montgomery Village Health Care Center,"Gaithersburg, Md.",62,9,"Montgomery Village Health Care Center, Gaithersburg, Md.",-77.2016062,39.1439689
+390,Trinity Hill Care Center skilled nursing facility,"Hartford, Conn.",62,7,"Trinity Hill Care Center skilled nursing facility, Hartford, Conn.",-72.6733723,41.7658043
+391,Alaris Health at The Fountains nursing home,"Secaucus, N.J.",62,5,"Alaris Health at The Fountains nursing home, Secaucus, N.J.",-74.05652979999999,40.7895453
+392,Central Gardens nursing home,"San Francisco, Calif.",62,1,"Central Gardens nursing home, San Francisco, Calif.",-122.4194155,37.7749295
+393,Louisville East Post Acute nursing home,"Louisville, Ky.",62,1,"Louisville East Post Acute nursing home, Louisville, Ky.",-85.7584557,38.2526647
+394,Bel Pre Healthcare Center,"Silver Spring, Md.",62,1,"Bel Pre Healthcare Center, Silver Spring, Md.",-77.026088,38.99066570000001
+395,Harmony House Health Care Center,"Waterloo, Iowa",62,0,"Harmony House Health Care Center, Waterloo, Iowa",-92.34257749999999,42.492786
+396,Jackson Ridge Rehabilitation and Care,"Canal Fulton, Ohio",62,0,"Jackson Ridge Rehabilitation and Care, Canal Fulton, Ohio",-81.597623,40.8897784
+397,Julia Temple Healthcare Center nursing home,"Englewood, Colo.",61,14,"Julia Temple Healthcare Center nursing home, Englewood, Colo.",-104.9877597,39.6477653
+398,The Mosaic of Lakeshore rehabilitation facility,"Chicago, Ill.",61,14,"The Mosaic of Lakeshore rehabilitation facility, Chicago, Ill.",-87.6297982,41.8781136
+399,Wauconda Care rehabilitation facility,"Wauconda, Ill.",61,14,"Wauconda Care rehabilitation facility, Wauconda, Ill.",-88.1392474,42.2589122
+400,Koester Pavilion nursing home and rehabilitation,"Troy, Ohio",61,13,"Koester Pavilion nursing home and rehabilitation, Troy, Ohio",-84.20327669999999,40.0394982
+401,Life Care Center of Gwinnett nursing home,"Lawrenceville, Ga.",61,12,"Life Care Center of Gwinnett nursing home, Lawrenceville, Ga.",-83.9879625,33.9562149
+402,Four Fountains nursing home,"Belleville, Ill.",61,12,"Four Fountains nursing home, Belleville, Ill.",-89.9839935,38.5200504
+403,Lyons Campus of the VA New Jersey Health Care System,"Lyons, N.J.",61,10,"Lyons Campus of the VA New Jersey Health Care System, Lyons, N.J.",-74.54710089999999,40.6853792
+404,El Rancho Vista Healthcare,"Pico Rivera, Calif.",61,8,"El Rancho Vista Healthcare, Pico Rivera, Calif.",-118.096735,33.9830688
+405,Clearwater Nursing and Rehabilitation Center,"Clearwater, Kan.",61,8,"Clearwater Nursing and Rehabilitation Center, Clearwater, Kan.",-97.504492,37.5027959
+406,Warren Haven Rehabilitation and Nursing Center,"Oxford, N.J.",61,8,"Warren Haven Rehabilitation and Nursing Center, Oxford, N.J.",-74.999813,40.8132568
+407,Bel Air Health and Rehabilitation Center,"Bel Air, Md.",61,6,"Bel Air Health and Rehabilitation Center, Bel Air, Md.",-76.34829309999999,39.535940600000004
+408,Riverdale Center for Nursing and Healing,"Riverdale, Ga.",61,4,"Riverdale Center for Nursing and Healing, Riverdale, Ga.",-84.4132594,33.5726113
+409,Rome Health and Rehabilitation Center,"Rome, Ga.",61,4,"Rome Health and Rehabilitation Center, Rome, Ga.",-85.1646726,34.257038
+410,Oakwood Care Center,"Baltimore, Md.",61,1,"Oakwood Care Center, Baltimore, Md.",-76.6121893,39.2903848
+411,Windsor House at Omni Manor nursing home,"Youngstown, Ohio",61,0,"Windsor House at Omni Manor nursing home, Youngstown, Ohio",-80.6495194,41.0997803
+412,Gardner Heights Health Care Center,"Shelton, Conn.",60,21,"Gardner Heights Health Care Center, Shelton, Conn.",-73.0931641,41.3164856
+413,Providence Nursing and Rehabilitation Center,"Trenton, N.J.",60,16,"Providence Nursing and Rehabilitation Center, Trenton, N.J.",-74.759717,40.2205824
+414,CareOne nursing home,"Wayne , N.J.",60,16,"CareOne nursing home, Wayne , N.J.",-74.2765441,40.92537249999999
+415,CareOne at The Cupola long0term care,"Paramus, N.J.",60,14,"CareOne at The Cupola long0term care, Paramus, N.J.",-74.0754189,40.9445428
+416,The Grove Post0Acute Care Center,"Sylmar, Calif.",60,12,"The Grove Post0Acute Care Center, Sylmar, Calif.",-118.4571974,34.3058279
+417,Stillwater Assisted Living & Skilled Nursing,"Greenville, R.I.",60,10,"Stillwater Assisted Living & Skilled Nursing, Greenville, R.I.",-71.5520069,41.8712103
+418,Whitney Rehabilitation Care Center,"Hamden, Conn.",60,7,"Whitney Rehabilitation Care Center, Hamden, Conn.",-72.9026064,41.3838782
+419,Parkville Care Center nursing home,"Hartford, Conn.",60,7,"Parkville Care Center nursing home, Hartford, Conn.",-72.6733723,41.7658043
+420,Monte Vista Healthcare Center,"Duarte, Calif.",60,6,"Monte Vista Healthcare Center, Duarte, Calif.",-117.9772873,34.1394513
+421,Waterfront Terrace nursing home,"Chicago, Ill.",60,6,"Waterfront Terrace nursing home, Chicago, Ill.",-87.6297982,41.8781136
+422,Briarwood Nursing and Rehabilitation,"Little Rock, Ark.",60,5,"Briarwood Nursing and Rehabilitation, Little Rock, Ark.",-92.28959479999999,34.7464809
+423,The Bay at Woodward Health and Rehabilitation Center,"Detroit, Mich.",60,3,"The Bay at Woodward Health and Rehabilitation Center, Detroit, Mich.",-83.0457538,42.331427
+424,Premier Health and Rehabilitation Center,"Las Vegas, Nev.",60,3,"Premier Health and Rehabilitation Center, Las Vegas, Nev.",-115.1398296,36.1699412
+425,White House Healthcare & Rehabilitation Center,"Orange, N.J.",60,0,"White House Healthcare & Rehabilitation Center, Orange, N.J.",-74.2326478,40.7706187
+426,The Willows nursing home,"Woodbridge, Conn.",59,16,"The Willows nursing home, Woodbridge, Conn.",-73.0084385,41.352597
+427,Valerie Manor nursing home,"Torrington, Conn.",59,12,"Valerie Manor nursing home, Torrington, Conn.",-73.1211715,41.8003049
+428,Brother Bonaventure Extended Care and Rehabilitation Center,"Elizabeth, N.J.",59,12,"Brother Bonaventure Extended Care and Rehabilitation Center, Elizabeth, N.J.",-74.2107006,40.6639916
+429,Cornell Care and Rehabilitation Center,"Union, N.J.",59,12,"Cornell Care and Rehabilitation Center, Union, N.J.",-74.26316349999999,40.6975898
+430,Alaris Health at Boulevard East nursing home,"Guttenberg, N.J.",59,11,"Alaris Health at Boulevard East nursing home, Guttenberg, N.J.",-74.0037505,40.7920454
+431,Alaris Health at Jersey City,"Jersey City, N.J.",59,8,"Alaris Health at Jersey City, Jersey City, N.J.",-74.0431435,40.7177545
+432,Regents Park nursing home,"Aventura, Fla.",59,7,"Regents Park nursing home, Aventura, Fla.",-80.1392121,25.9564812
+433,Grayson Rehab and Nursing,"Leitchfield, Ky.",59,5,"Grayson Rehab and Nursing, Leitchfield, Ky.",-86.2938637,37.4800544
+434,Parker at Somerset nursing home,"Somerset, N.J.",59,5,"Parker at Somerset nursing home, Somerset, N.J.",-74.48848679999999,40.497604
+435,Paris Healthcare Nursing Home,"Paris, Texas",59,3,"Paris Healthcare Nursing Home, Paris, Texas",-95.55551299999999,33.6609389
+436,Meadowview Nursing and Rehabilitation Center,"Northfield, N.J.",59,2,"Meadowview Nursing and Rehabilitation Center, Northfield, N.J.",-74.5501546,39.3703942
+437,CareCore at Meadows Health Care Center,"Cincinnati, Ohio",59,0,"CareCore at Meadows Health Care Center, Cincinnati, Ohio",-84.5120196,39.1031182
+438,Skyview Springs Rehab and Nursing Center,"Luray, Va.",59,0,"Skyview Springs Rehab and Nursing Center, Luray, Va.",-78.4594522,38.665397
+439,Lord Chamberlain Nursing Home and Rehabilitation Center,"Stratford, Conn.",58,29,"Lord Chamberlain Nursing Home and Rehabilitation Center, Stratford, Conn.",-73.1331651,41.18454149999999
+440,Avista Healthcare nursing home,"Cherry Hill, N.J.",58,17,"Avista Healthcare nursing home, Cherry Hill, N.J.",-75.0246312,39.926813
+441,Columbine Manor Care Center nursing home,"Salida, Colo.",58,12,"Columbine Manor Care Center nursing home, Salida, Colo.",-105.9989022,38.5347193
+442,Presence Villa Franciscan nursing home,"Joliet, Ill.",58,12,"Presence Villa Franciscan nursing home, Joliet, Ill.",-88.0817251,41.525031
+443,Chateau Nursing and Rehabilitation Center,"Willowbrook, Ill.",58,11,"Chateau Nursing and Rehabilitation Center, Willowbrook, Ill.",-87.9358931,41.7697533
+444,Fountain Manor Health and Rehabilitation Center,"Miami, Fla.",58,8,"Fountain Manor Health and Rehabilitation Center, Miami, Fla.",-80.1917902,25.7616798
+445,Providence Healthcare & Rehabilitation Center,"Downers Grove, Ill.",58,8,"Providence Healthcare & Rehabilitation Center, Downers Grove, Ill.",-88.01117459999999,41.8089191
+446,Windsor Terrace Healthcare Center,"Van Nuys, Calif.",58,7,"Windsor Terrace Healthcare Center, Van Nuys, Calif.",-118.451357,34.1898566
+447,Grimes Center rehabilitation facility,"New Haven, Conn.",58,3,"Grimes Center rehabilitation facility, New Haven, Conn.",-72.9278835,41.308274
+448,North Dade Nursing And Rehabilitation Center,"North Miami, Fla.",58,3,"North Dade Nursing And Rehabilitation Center, North Miami, Fla.",-80.1867138,25.8900949
+449,Skyline Nursing Center,"Dallas, Texas",58,3,"Skyline Nursing Center, Dallas, Texas",-96.79698789999999,32.7766642
+450,NSpire Healthcare Lauderhill nursing home,"Lauderhill, Fla.",58,1,"NSpire Healthcare Lauderhill nursing home, Lauderhill, Fla.",-80.2133808,26.1403635
+451,Bayside Health and Rehabilitation Center,"Pensacola, Fla.",58,0,"Bayside Health and Rehabilitation Center, Pensacola, Fla.",-87.2169149,30.42130899999999
+452,Center Home for Hispanic Elderly,"Chicago, Ill.",57,22,"Center Home for Hispanic Elderly, Chicago, Ill.",-87.6297982,41.8781136
+453,Manhattanview Nursing Home,"Union City, N.J.",57,17,"Manhattanview Nursing Home, Union City, N.J.",-74.02375119999999,40.7795455
+454,Boulevard Temple Care Center,"Detroit, Mich.",57,15,"Boulevard Temple Care Center, Detroit, Mich.",-83.0457538,42.331427
+455,AristaCare at Norwood Terrace rehabilitation facility,"Plainfield, N.J.",57,15,"AristaCare at Norwood Terrace rehabilitation facility, Plainfield, N.J.",-74.4073736,40.6337136
+456,CareOne at The Cupola assisted living,"Paramus, N.J.",57,14,"CareOne at The Cupola assisted living, Paramus, N.J.",-74.0754189,40.9445428
+457,Wellington Rehabilitation and Healthcare,"Knightdale, N.C.",57,11,"Wellington Rehabilitation and Healthcare, Knightdale, N.C.",-78.4805563,35.7876515
+458,Fox Hill Center nursing home,"Vernon, Conn.",57,10,"Fox Hill Center nursing home, Vernon, Conn.",-72.47903699999999,41.8186802
+459,Opis Coquina Center nursing home,"Ormond Beach, Fla.",57,9,"Opis Coquina Center nursing home, Ormond Beach, Fla.",-81.0558894,29.2858129
+460,Cherry Springs Village assisted living,"Hendersonville, N.C.",57,9,"Cherry Springs Village assisted living, Hendersonville, N.C.",-82.4609528,35.3187279
+461,Apple Rehab nursing home,"West Haven, Conn.",57,7,"Apple Rehab nursing home, West Haven, Conn.",-72.9469711,41.2705484
+462,Waugh Chapel Center nursing home,"Gambrills, Md.",57,6,"Waugh Chapel Center nursing home, Gambrills, Md.",-76.6654513,39.0670456
+463,St. Josephs Skilled Nursing Center,"Lawrence Township, N.J.",57,4,"St. Josephs Skilled Nursing Center, Lawrence Township, N.J.",-74.7294313,40.2778055
+464,Transitions Healthcare Capitol City rehabilitation facility,"Washington, D.C.",57,1,"Transitions Healthcare Capitol City rehabilitation facility, Washington, D.C.",-77.0368707,38.9071923
+465,Cedar Crest Nursing and Rehabilitation Center,"Sunnyvale, Calif.",57,0,"Cedar Crest Nursing and Rehabilitation Center, Sunnyvale, Calif.",-122.0363496,37.36883
+466,Autumn Lake Healthcare skilled nursing facility,"Norwalk, Conn.",56,21,"Autumn Lake Healthcare skilled nursing facility, Norwalk, Conn.",-73.4081575,41.11774399999999
+467,Cranford Park Rehabilitation and Health Care Center,"Cranford, N.J.",56,15,"Cranford Park Rehabilitation and Health Care Center, Cranford, N.J.",-74.2995928,40.6584212
+468,Signature HealthCARE,"Chapel Hill, N.C.",56,12,"Signature HealthCARE, Chapel Hill, N.C.",-79.0558445,35.9131996
+469,Life Care Center nursing home,"Raynham, Mass.",56,10,"Life Care Center nursing home, Raynham, Mass.",-71.0731162,41.9487077
+470,Carrollton Manor nursing home,"Carrollton, Ga.",56,7,"Carrollton Manor nursing home, Carrollton, Ga.",-85.0766113,33.5801103
+471,Wheaton Village Nursing and Rehabilitation Center,"Wheaton, Ill.",56,7,"Wheaton Village Nursing and Rehabilitation Center, Wheaton, Ill.",-88.1070127,41.8661403
+472,Reche Canyon Regional Rehab Center,"Colton, Calif.",56,1,"Reche Canyon Regional Rehab Center, Colton, Calif.",-117.3136547,34.0739016
+473,Bria of River Oaks skilled nursing and rehabilitation,"Burnham, Ill.",56,0,"Bria of River Oaks skilled nursing and rehabilitation, Burnham, Ill.",-87.55671079999999,41.638924
+474,West Bloomfield Health & Rehabilitation Center,"West Bloomfield, Mich.",56,0,"West Bloomfield Health & Rehabilitation Center, West Bloomfield, Mich.",-83.373339,42.5678534
+475,Mennonite Home continuing care retirement community,"Lancaster, Pa.",56,0,"Mennonite Home continuing care retirement community, Lancaster, Pa.",-76.3055144,40.0378755
+476,Riverview Health and Rehab Center North,"Detroit, Mich.",55,15,"Riverview Health and Rehab Center North, Detroit, Mich.",-83.0457538,42.331427
+477,Stollwood Convalescent Hospital,"Woodland, Calif.",55,14,"Stollwood Convalescent Hospital, Woodland, Calif.",-121.7732971,38.67851570000001
+478,Autumn Lake Healthcare at Oakview,"Silver Spring, Md.",55,14,"Autumn Lake Healthcare at Oakview, Silver Spring, Md.",-77.026088,38.99066570000001
+479,The Earlwood Center nursing home,"Torrance, Calif.",55,8,"The Earlwood Center nursing home, Torrance, Calif.",-118.3406288,33.8358492
+480,Symphony Northwoods skilled nursing,"Belvidere, Ill.",55,8,"Symphony Northwoods skilled nursing, Belvidere, Ill.",-88.84426739999999,42.2639098
+481,Quinnipiac Valley Center nursing home,"Wallingford, Conn.",55,7,"Quinnipiac Valley Center nursing home, Wallingford, Conn.",-72.8230736,41.4570108
+482,Windsor Manor Nursing Home,"Manning, S.C.",55,7,"Windsor Manor Nursing Home, Manning, S.C.",-80.2109134,33.6951627
+483,Darlington Memory Lane,"North Providence, R.I.",55,5,"Darlington Memory Lane, North Providence, R.I.",-71.46766389999999,41.8535518
+484,Silver Springs Care Center nursing home,"Meriden, Conn.",55,3,"Silver Springs Care Center nursing home, Meriden, Conn.",-72.80704349999999,41.5381535
+485,Charlesgate Nursing Center,"Providence, R.I.",55,1,"Charlesgate Nursing Center, Providence, R.I.",-71.4128343,41.8239891
+486,Meadow Wind Health Care Center,"Massillon, Ohio",55,0,"Meadow Wind Health Care Center, Massillon, Ohio",-81.52150929999999,40.7967244
+487,Windsor Health and Rehabilitation Center,"Windsor, Conn.",54,20,"Windsor Health and Rehabilitation Center, Windsor, Conn.",-72.64370219999999,41.8525984
+488,Harborview Health Systems nursing home,"Thomaston, Ga.",54,15,"Harborview Health Systems nursing home, Thomaston, Ga.",-84.3265854,32.8881879
+489,PruittHealth Ashburn nursing home,"Ashburn, Ga.",54,11,"PruittHealth Ashburn nursing home, Ashburn, Ga.",-83.653224,31.7060134
+490,Good Samaritan Society 0 Bonell Community assisted living facility,"Greeley, Colo.",54,7,"Good Samaritan Society 0 Bonell Community assisted living facility, Greeley, Colo.",-104.7091322,40.4233142
+491,The Villa at Great Lakes Crossing nursing home,"Detroit, Mich.",54,5,"The Villa at Great Lakes Crossing nursing home, Detroit, Mich.",-83.0457538,42.331427
+492,Autumn Lake Healthcare skilled nursing facility,"Cromwell, Conn.",54,4,"Autumn Lake Healthcare skilled nursing facility, Cromwell, Conn.",-72.6453705,41.595098900000004
+493,Westminster Healthcare Center nursing home,"Westminster, Md.",54,2,"Westminster Healthcare Center nursing home, Westminster, Md.",-76.9958149,39.5753791
+494,Heritage Manor Nursing and Rehabilitation Center,"Detroit, Mich.",54,2,"Heritage Manor Nursing and Rehabilitation Center, Detroit, Mich.",-83.0457538,42.331427
+495,Pruitt Health 0 Blythewood nursing home,"Columbia, S.C.",54,1,"Pruitt Health 0 Blythewood nursing home, Columbia, S.C.",-81.0348144,34.0007104
+496,Sylmar Health and Rehabilitation Center,"Sylmar, Calif.",54,0,"Sylmar Health and Rehabilitation Center, Sylmar, Calif.",-118.4571974,34.3058279
+497,The Health Center at Bloomingdale nursing and rehabilitation facility,"Bloomingdale, N.J.",53,15,"The Health Center at Bloomingdale nursing and rehabilitation facility, Bloomingdale, N.J.",-74.3265388,41.002042
+498,Complete Care at Summit Ridge nursing home,"West Orange, N.J.",53,15,"Complete Care at Summit Ridge nursing home, West Orange, N.J.",-74.23908279999999,40.7985699
+499,Rockville Nursing Home,"Rockville, Md.",53,13,"Rockville Nursing Home, Rockville, Md.",-77.1527578,39.0839973
+500,Complete Care at Hamilton Plaza nursing home,"Passaic, N.J.",53,8,"Complete Care at Hamilton Plaza nursing home, Passaic, N.J.",-74.1284764,40.8567662
+501,Miami Shores Nursing and Rehab Center,"Miami, Fla.",53,7,"Miami Shores Nursing and Rehab Center, Miami, Fla.",-80.1917902,25.7616798
+502,Gardena Convalescent Center,"Gardena, Calif.",53,6,"Gardena Convalescent Center, Gardena, Calif.",-118.3089624,33.8883487
+503,Living Center West nursing home,"Cedar Rapids, Iowa",53,0,"Living Center West nursing home, Cedar Rapids, Iowa",-91.6656232,41.9778795
+504,Whispering Pines Rehabilitation and Nursing Center,"East Haven, Conn.",52,24,"Whispering Pines Rehabilitation and Nursing Center, East Haven, Conn.",-72.8684565,41.2841687
+505,Job Haines Home senior care facility,"Bloomfield, N.J.",52,13,"Job Haines Home senior care facility, Bloomfield, N.J.",-74.1854209,40.8067546
+506,Mountain Vista Senior Living Community,"Wheat Ridge, Colo.",52,8,"Mountain Vista Senior Living Community, Wheat Ridge, Colo.",-105.0772063,39.766098
+507,FutureCare Cold Spring nursing home,"Baltimore, Md.",52,8,"FutureCare Cold Spring nursing home, Baltimore, Md.",-76.6121893,39.2903848
+508,Montrose Health Center nursing home,"Glendale, Calif.",52,6,"Montrose Health Center nursing home, Glendale, Calif.",-118.255075,34.1425078
+509,Fairfield Nursing and Rehabilitation Center,"Crownsville, Md.",52,6,"Fairfield Nursing and Rehabilitation Center, Crownsville, Md.",-76.6013536,39.0284438
+510,Grace Living Center nursing home,"Mangum, Okla.",52,5,"Grace Living Center nursing home, Mangum, Okla.",-99.50425609999999,34.8720044
+511,Premier Estates of Toledo nursing home,"Toledo, Iowa",52,0,"Premier Estates of Toledo nursing home, Toledo, Iowa",-92.5835266,41.9972134
+512,The Meadows of Leipsic nursing home,"Leipsic, Ohio",52,0,"The Meadows of Leipsic nursing home, Leipsic, Ohio",-83.98466549999999,41.0983846
+513,Regency Canyon Lakes rehabilitation and nursing,"Kennewick, Wash.",52,0,"Regency Canyon Lakes rehabilitation and nursing, Kennewick, Wash.",-119.119948,46.2086683
+514,Autumn Lake Healthcare at Berkeley Heights nursing home,"Berkeley Heights, N.J.",51,15,"Autumn Lake Healthcare at Berkeley Heights nursing home, Berkeley Heights, N.J.",-74.4310524,40.6808726
+515,Holly Heights Care Center nursing home,"Denver, Colo.",51,14,"Holly Heights Care Center nursing home, Denver, Colo.",-104.990251,39.7392358
+516,Touchpoints at Bloomfield nursing home,"Bloomfield, Conn.",51,13,"Touchpoints at Bloomfield nursing home, Bloomfield, Conn.",-72.73009449999999,41.826488
+517,The Actors Fund Home assisted living facility,"Englewood, N.J.",51,11,"The Actors Fund Home assisted living facility, Englewood, N.J.",-73.9726381,40.8928771
+518,Century Villa nursing home,"Inglewood, Calif.",51,9,"Century Villa nursing home, Inglewood, Calif.",-118.3531311,33.9616801
+519,ManorCare Health Services 0 Rossville nursing home,"Baltimore, Md.",51,7,"ManorCare Health Services 0 Rossville nursing home, Baltimore, Md.",-76.6121893,39.2903848
+520,Cherrelyn Healthcare Center,"Littleton, Colo.",51,6,"Cherrelyn Healthcare Center, Littleton, Colo.",-105.0166498,39.613321
+521,Symphony of South Shore nursing home,"Chicago, Ill.",51,6,"Symphony of South Shore nursing home, Chicago, Ill.",-87.6297982,41.8781136
+522,Signature HealthCARE of Putnam County assisted living,"Cookeville, Tenn.",51,5,"Signature HealthCARE of Putnam County assisted living, Cookeville, Tenn.",-85.5016423,36.162839
+523,Canton Nursing Center,"Canton, Ga.",51,4,"Canton Nursing Center, Canton, Ga.",-84.4907621,34.2367621
+524,Future Care Irvington,"Baltimore, Md.",51,4,"Future Care Irvington, Baltimore, Md.",-76.6121893,39.2903848
+525,The Phoenix at Lake Lanier assisted living facility,"Gainesville, Ga.",51,3,"The Phoenix at Lake Lanier assisted living facility, Gainesville, Ga.",-83.8240663,34.2978794
+526,Sunset Estates nursing home,"Purcell, Okla.",51,2,"Sunset Estates nursing home, Purcell, Okla.",-97.3611394,35.0136831
+527,MediLodge of Alpena nursing home,"Alpena, Mich.",51,0,"MediLodge of Alpena nursing home, Alpena, Mich.",-83.4327528,45.0616794
+528,Maple Woods Manor skilled nursing facility,"Clio, Mich.",50,17,"Maple Woods Manor skilled nursing facility, Clio, Mich.",-83.73412739999999,43.1775256
+529,The Suffield House nursing home,"Suffield, Conn.",50,16,"The Suffield House nursing home, Suffield, Conn.",-72.7017741,41.9915062
+530,Apple Rehab Shelton Lakes rehabilitation facility,"Shelton, Conn.",50,15,"Apple Rehab Shelton Lakes rehabilitation facility, Shelton, Conn.",-73.0931641,41.3164856
+531,Treyton Oak Towers assisted living,"Louisville, Ky.",50,15,"Treyton Oak Towers assisted living, Louisville, Ky.",-85.7584557,38.2526647
+532,Concord Healthcare and Rehabilitation Center,"Lakewood, N.J.",50,11,"Concord Healthcare and Rehabilitation Center, Lakewood, N.J.",-74.2097014,40.08212899999999
+533,Barclay's Rehabillitation and Healthcare Center,"Cherry Hill, N.J.",50,10,"Barclay's Rehabillitation and Healthcare Center, Cherry Hill, N.J.",-75.0246312,39.926813
+534,Crofton Care and Rehabilitation Center,"Crofton, Md.",50,9,"Crofton Care and Rehabilitation Center, Crofton, Md.",-76.68746709999999,39.0017772
+535,Carroll Lutheran Village assisted living facility,"Westminster, Md.",50,8,"Carroll Lutheran Village assisted living facility, Westminster, Md.",-76.9958149,39.5753791
+536,The Grove at the Lake nursing home,"Zion, Ill.",50,6,"The Grove at the Lake nursing home, Zion, Ill.",-87.83285049999999,42.4461322
+537,Governors Creek Health and Rehabilitation,"Green Cove Springs, Fla.",50,5,"Governors Creek Health and Rehabilitation, Green Cove Springs, Fla.",-81.6781467,29.9919085
+538,MADO Healthcare Uptown nursing home,"Chicago, Ill.",50,3,"MADO Healthcare Uptown nursing home, Chicago, Ill.",-87.6297982,41.8781136
+539,East Bay Post0Acute nursing home,"Castro Valley, Calif.",50,1,"East Bay Post0Acute nursing home, Castro Valley, Calif.",-122.0738678,37.6955029
+540,Solaris Healthcare rehabilitation center,"Port Charlotte, Fla.",50,1,"Solaris Healthcare rehabilitation center, Port Charlotte, Fla.",-82.09064479999999,26.9761707
+541,Regency At Bluffs Park nursing home,"Ann Arbor, Mich.",50,0,"Regency At Bluffs Park nursing home, Ann Arbor, Mich.",-83.7430378,42.2808256
+542,Lakepointe Senior Care and Rehab Center,"Clinton Township, Mich.",50,0,"Lakepointe Senior Care and Rehab Center, Clinton Township, Mich.",-82.9195514,42.5868882
+543,Heartland rehabilitation facility,"Marietta, Ohio",50,0,"Heartland rehabilitation facility, Marietta, Ohio",-81.45484359999999,39.41535200000001
