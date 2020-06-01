@@ -43,4 +43,23 @@ patterns <-
 
 glimpse(patterns)
 
+##
+
+library(lubridate)
+
+##
+
+march <- filter(patterns, date_range_end < as_date("2020-04-01"))
+
+ordest <- 
+  march %>%
+  select(safegraph_place_id, visitor_home_cbgs) %>%
+  mutate(visitor_home_cbgs = str_remove_all(visitor_home_cbgs, "\\{|\\}"),
+         visitor_home_cbgs = str_remove_all(visitor_home_cbgs, "\"|")) %>%
+  filter(visitor_home_cbgs != "") %>%
+  separate_rows(visitor_home_cbgs, sep = ",") %>%
+  separate(visitor_home_cbgs, into = c("cbgs", "visits")) %>%
+  mutate(visits = as.numeric(visits))
+  
+
 
