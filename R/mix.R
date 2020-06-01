@@ -180,10 +180,34 @@ labels <-
   as_tibble() %>%
   mutate(group = group)
 
+pal <- read_csv("https://raw.githubusercontent.com/asrenninger/palettes/master/turbo.txt", col_names = FALSE) %>% pull(X1)
+
+
+
 ggplot() +
+  geom_sf(data = cbgs %>%
+            filter(str_sub(GEOID, start = 1, end = 5) == "42101"),
+          aes(), fill = '#ffffff', alpha = 0.7) +
   geom_sf(data = grouped, aes(fill = group), colour = '#ffffff', size = 0.5, show.legend = FALSE) +
-  geom_text(data = labels,
-            aes(X, Y, label = group))
+  #geom_text(data = labels,
+  #          aes(X, Y, label = group),
+  #          colour = '#ffffff', fontface = 'bold', size = 10, check_overlap = TRUE) +
+  scale_fill_manual(values = rep(pal, 7)[1:56]) +
+  theme_bm_legend()
+
+ggplot() +
+  geom_sf(data = cbgs %>%
+            filter(str_sub(GEOID, start = 1, end = 5) == "42101"),
+          aes(), fill = '#ffffff', alpha = 0.7) +
+  geom_sf(data = grouped, aes(fill = group), colour = '#ffffff', size = 0.5, show.legend = FALSE) +
+  #geom_text(data = labels,
+  #          aes(X, Y, label = group),
+  #          colour = '#ffffff', fontface = 'bold', size = 10, check_overlap = TRUE) +
+  scale_fill_manual(values = rep(pal, 7)[1:56]) +
+  facet_wrap(~ group) +
+  theme_bm_legend() +
+  ggsave("test.png", height = 20, width = 20, dpi = 300)
+
 
 
 
