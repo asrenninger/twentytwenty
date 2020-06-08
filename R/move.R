@@ -38,49 +38,14 @@ travel <-
 
 options(scipen = 999)
 
-ggplot(travel %>%
-         filter(distance != "-1000") %>%
-         group_by(county_name, datestr) %>%
-         summarise(value = sum(value),
-                   device_count = sum(device_count)),
-       aes(datestr, value / device_count)) +
-  geom_line(size = 0.74, colour = '#4DAF4A') +
-  facet_wrap(~ county_name) +
-  scale_colour_brewer(palette = 'Set1') +
-  xlab("date") +
-  ylab("percent of devices travelling between more than 1 km") +
-  theme_hor() +
-  ggsave("movement.png", height = 6, width = 10, dpi = 300)
-
-unique(distancing$datestr)
-
-travel %>%
-  filter(distance != "-1000") %>%
-  group_by(county_name, datestr) %>%
-  summarise(value = sum(value),
-            device_count = sum(device_count))
-
-
-bind_rows(filtered_distancing %>%
-            select(county_name, datestr, sheltering_in_place_percent) %>%
-            rename(value = sheltering_in_place_percent) %>%
-            mutate(variable = "Shelting in Place"),
-          travel %>%
-            filter(distance != "-1000") %>%
-            group_by(county_name, datestr) %>%
-            summarise(value = sum(value),
-                      device_count = sum(device_count)) %>%
-            mutate(value = value / device_count,
-                   variable = "Moved > 1 km") %>%
-            select(-device_count)) %>%
-  ggplot(aes(datestr, value, colour = variable)) +
+ggplot(travel,
+       aes(datestr, value / device_count, color = distance)) +
   geom_line(size = 0.74) +
   facet_wrap(~ county_name) +
   scale_colour_brewer(palette = 'Set1') +
   xlab("date") +
-  ylab("% moving") +
+  ylab("percent of devices travelling this distance") +
   theme_hor() +
   ggsave("movement.png", height = 6, width = 10, dpi = 300)
-          
 
-
+unique(distancing$datestr)
