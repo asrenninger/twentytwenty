@@ -6,6 +6,7 @@ library(data.table)
 
 library(fs)
 library(glue)
+library(vroom)
 
 ##
 
@@ -14,6 +15,7 @@ files <- files[str_detect(files, "core_poi")]
 
 ##
 
+poi <- vroom(files)
 poi <- map_df(files, read_csv)
 
 ##
@@ -113,7 +115,8 @@ network <-
   mutate(GEOID = str_sub(cbgs_venue, start = 1, end = 5)) %>%
   filter(GEOID == "42101") %>%
   mutate(GEOID = str_sub(cbgs, start = 1, end = 5)) %>%
-  filter(GEOID == "42101") 
+  filter(GEOID == "42101") %>%
+  select(-GEOID)
 
 nodes <- 
   bind_rows(network %>% 
@@ -182,17 +185,15 @@ labels <-
 
 pal <- read_csv("https://raw.githubusercontent.com/asrenninger/palettes/master/turbo.txt", col_names = FALSE) %>% pull(X1)
 
-
-
 ggplot() +
   geom_sf(data = cbgs %>%
             filter(str_sub(GEOID, start = 1, end = 5) == "42101"),
           aes(), fill = '#ffffff', alpha = 0.7) +
-  geom_sf(data = grouped, aes(fill = group), colour = '#ffffff', size = 0.5, show.legend = FALSE) +
+  geom_sf(data = grouped, aes(fill = group), colour = '#ffffff', size = 0, show.legend = FALSE) +
   #geom_text(data = labels,
   #          aes(X, Y, label = group),
   #          colour = '#ffffff', fontface = 'bold', size = 10, check_overlap = TRUE) +
-  scale_fill_manual(values = rep(pal, 7)[1:56]) +
+  scale_fill_manual(values = rep(pal, 8)[1:63]) +
   theme_bm_legend()
 
 ggplot() +
@@ -208,7 +209,41 @@ ggplot() +
   theme_bm_legend() +
   ggsave("test.png", height = 20, width = 20, dpi = 300)
 
+geo <- 
+  ordest %>%
+  left_join(interactors)  %>%
+  mutate(journey = glue("{cbgs} to {cbgs_venue}")) %>%
+  select(journey, cbgs, cbgs_venue, visits) %>%
+  pivot_longer(cols = cbgs:cbgs_venue) %>%
+  rename(name = value, 
+         location = name) %>%
+  mutate(location = str_replace_all(location, pattern = "cbgs_venue", replacement = "end"),
+         location = str_replace_all(location, pattern = "cbgs", replacement = "start")) %>%
+  left_join(geometry) %>%
+  st_as_sf() %>%
+  st_centroid()
 
+geo <-
+  geo %>%
+  st_coordinates() %>%
+  as_tibble() %>%
+  bind_cols(geo) %>%
+  left_join(st_drop_geometry(grouped)) %>% 
+  drop_na(group)
+
+ggplot() +
+  geom_sf(data = cbgs %>%
+            filter(str_sub(GEOID, start = 1, end = 5) == "42101"),
+          aes(), fill = '#ffffff', alpha = 0.7) +
+  geom_path(data = geo, 
+            aes(X, Y, group = journey, colour = group), size = 0.5, show.legend = FALSE) +
+  #geom_text(data = labels,
+  #          aes(X, Y, label = group),
+  #          colour = '#ffffff', fontface = 'bold', size = 10, check_overlap = TRUE) +
+  scale_fill_manual(values = rep(pal, 7)[1:56]) +
+  facet_wrap(~ group) + 
+  theme_bm_legend() +
+  ggsave("tests.png", height = 20, width = 20, dpi = 300)
 
 
 
