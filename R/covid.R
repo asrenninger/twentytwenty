@@ -267,6 +267,12 @@ p <- pm / pr / pl / pp + po + plot_annotation(
 
 ggsave("counties_cases.png", height = 22, width = 18, dpi = 300)
 
+wi <- p3 / p4 + plot_annotation(
+  title = 'CASES'
+)
+
+ggsave("wi_cases.png", height = 10, width = 15, dpi = 300)
+
 ##
 
 p1 <- read_csv("https://github.com/nytimes/covid-19-data/raw/master/us-counties.csv") %>%
@@ -473,4 +479,11 @@ p <- pm / pr / pl / pp + po + plot_annotation(
 )
 
 ggsave("counties_death.png", height = 22, width = 18, dpi = 300)
+
+wi <- p3 / p4 + plot_annotation(
+  title = 'DEATHS'
+)
+
+ggsave("wi_death.png", height = 10, width = 15, dpi = 300)
+
 
