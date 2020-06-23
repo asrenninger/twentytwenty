@@ -1,9 +1,9 @@
 library(tidyverse)
+library(glue)
 library(data.table)
 library(dtplyr)
-library(glue)
 
-distancing <- read_csv("data/distance/unfolded_covid _w social_distance _w weekly_patterns _w spend _w weather.csv")
+distancing <- read_csv("data/distance/unfolded_covid _w social_distance _w weekly_patterns.csv")
 
 fips <- c("26099", "12103", "55059", "42079", "55101", "39113") 
 
@@ -42,8 +42,6 @@ travel <-
          distance = str_replace_all(distance, pattern = "_1000", replacement = "-1 (km)"),
          distance = str_replace_all(distance, pattern = "_", replacement = "-")) %>%
   mutate(distance = fct_relevel(distance, levels = c("-1 (km)", "1-2", "2-8", "8-16", "16-50", "50+")))
-
-?fct_relevel
 
 options(scipen = 999)
 
