@@ -1,6 +1,5 @@
 library(tidyverse)
 library(lubridate)
-library(tidyquant)
 
 metro <- c("Bucks", "Chester", "Delaware", "Montgomery", "Philadelphia", "Burlington", "Camden", "Gloucester", "New Castle")
 
