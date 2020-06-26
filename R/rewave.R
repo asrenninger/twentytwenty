@@ -79,7 +79,8 @@ ggplot(combined %>%
   geom_bar(stat = 'identity') +
   facet_wrap(~ name, ncol = 1)
 
-left_join(one_sub %>%
+test <- 
+  left_join(one_sub %>%
             select(panelistid, employ_3, employ_4) %>%
             rename(one_temp = employ_3, 
                    one_full = employ_4),
@@ -87,10 +88,10 @@ left_join(one_sub %>%
             select(panelistid, employ_3, employ_4) %>%
             rename(two_temp = employ_3, 
                    two_full = employ_4)) %>%
-  mutate(change_temp = one_temp - two_temp,
-         change_full = one_full - two_full) %>%
-  group_by(change_temp, change_full) %>%
-  summarise(n = n())
+  mutate(emp_one = one_temp + one_full,
+         emp_two = two_temp + two_full) %>%
+  mutate(change = case_when(emp_two != emp_one ~ 1,
+                            TRUE ~ 0))
 
 
 
