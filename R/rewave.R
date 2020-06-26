@@ -70,8 +70,6 @@ combined <- bind_rows(one_sub %>%
                       two_sub %>%
                         mutate(wave = "2"))
 
-names(one_sub)
-
 ggplot(combined %>%
          group_by(start_date) %>%
          summarise(lo_temp = sum(employ_3),
@@ -80,6 +78,19 @@ ggplot(combined %>%
        aes(start_date, value)) +
   geom_bar(stat = 'identity') +
   facet_wrap(~ name, ncol = 1)
+
+left_join(one_sub %>%
+            select(panelistid, employ_3, employ_4) %>%
+            rename(one_temp = employ_3, 
+                   one_full = employ_4),
+          two_sub %>%
+            select(panelistid, employ_3, employ_4) %>%
+            rename(two_temp = employ_3, 
+                   two_full = employ_4)) %>%
+  mutate(change_temp = one_temp - two_temp,
+         change_full = one_full - two_full) %>%
+  group_by(change_temp, change_full) %>%
+  summarise(n = n())
 
 
 
