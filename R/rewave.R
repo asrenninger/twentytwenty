@@ -95,7 +95,9 @@ test <-
          change_4 = employ_4_w1 != employ_4_w2,
          change_5 = employ_5_w1 != employ_5_w2,
          change_7 = employ_7_w1 != employ_7_w2) %>%
-  select(panelistid, change_1:change_7) 
+  select(panelistid, change_1:change_7)
+
+
 
 
 
