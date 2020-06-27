@@ -79,19 +79,23 @@ ggplot(combined %>%
   geom_bar(stat = 'identity') +
   facet_wrap(~ name, ncol = 1)
 
+variables <- "employ_1 employ_2 employ_3 employ_4 employ_5 employ_7"
+variables <- str_split(variables, pattern = " ")[[1]]
+
 test <- 
   left_join(one_sub %>%
-            select(panelistid, employ_3, employ_4) %>%
-            rename(one_temp = employ_3, 
-                   one_full = employ_4),
-          two_sub %>%
-            select(panelistid, employ_3, employ_4) %>%
-            rename(two_temp = employ_3, 
-                   two_full = employ_4)) %>%
-  mutate(emp_one = one_temp + one_full,
-         emp_two = two_temp + two_full) %>%
-  mutate(change = case_when(emp_two != emp_one ~ 1,
-                            TRUE ~ 0))
+              select(panelistid, variables) %>%
+              rename_at(vars(employ_1:employ_7), function(x) paste(x, "w1", sep = "_")),
+            two_sub %>%
+              select(panelistid, variables) %>%
+              rename_at(vars(employ_1:employ_7), function(x) paste(x, "w2", sep = "_"))) %>%
+  mutate(change_1 = employ_1_w1 != employ_1_w2,
+         change_2 = employ_2_w1 != employ_2_w2,
+         change_3 = employ_3_w1 != employ_3_w2,
+         change_4 = employ_4_w1 != employ_4_w2,
+         change_5 = employ_5_w1 != employ_5_w2,
+         change_7 = employ_7_w1 != employ_7_w2) %>%
+  select(panelistid, change_1:change_7) 
 
 
 
