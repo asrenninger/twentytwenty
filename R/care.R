@@ -1481,6 +1481,35 @@ shape <- st_as_sf(data_geocoded, coords = c("lon", "lat"), crs = 4326)
 
 plot(shape)
 
+##
+
+w1 <- read_csv("data/times/nursing_homes.csv") %>%
+  rename(cases_w1 = cases,
+         deaths_w1 = deaths) %>%
+  select(-address, -lon, -lat)
+
+w2 <- read_csv("data/times/nursing_homes_update.csv") %>%
+  rename(cases_w2 = cases,
+         deaths_w2 = deaths) %>%
+  select(-address)
+
+##
+
+waves <- 
+  w2 %>%
+  left_join(w1) %>%
+  replace_na(list(cases_w1 = 0,
+                  deaths_w1 = 0)) %>%
+  select(lon, lat, everything(), -group)
+  
+
+waves %>%
+  mutate(diff_deaths = deaths_w2 - deaths_w1, 
+         diff_cases = cases_w2 - cases_w1) %>%
+  arrange(desc(diff_cases)) %>%
+  separate(col = location, into = c("city", "state"), sep = ", ", remove = FALSE) 
+
+
 
 
 
