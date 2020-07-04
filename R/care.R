@@ -1502,12 +1502,16 @@ waves <-
                   deaths_w1 = 0)) %>%
   select(lon, lat, everything(), -group)
   
-
 waves %>%
   mutate(diff_deaths = deaths_w2 - deaths_w1, 
          diff_cases = cases_w2 - cases_w1) %>%
-  arrange(desc(diff_cases)) %>%
-  separate(col = location, into = c("city", "state"), sep = ", ", remove = FALSE) 
+  separate(col = location, into = c("city", "state"), sep = ", ", remove = FALSE) %>%
+  group_by(state) %>%
+  summarise(deaths = sum(diff_deaths), 
+            cases = sum(diff_cases)) %>%
+  arrange(desc(deaths)) %>%
+  drop_na(state) %>%
+  flextable::flextable()
 
 
 
