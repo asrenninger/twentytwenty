@@ -1,0 +1,30 @@
+group,facility,location,cases,deaths,address,STATEFP,COUNTYFP,COUNTYNS,AFFGEOID,GEOID,NAME,LSAD,ALAND,AWATER
+59,Alden Terrace of McHenry rehabilitation care,"McHenry, Ill.",123,6,"Alden Terrace of McHenry rehabilitation care, McHenry, Ill.",55,059,01581089,0500000US55059,55059,Kenosha,06,704208614,1248708387
+59,Alden Terrace of McHenry rehabilitation care,"McHenry, Ill.",123,6,"Alden Terrace of McHenry rehabilitation care, McHenry, Ill.",55,101,01581111,0500000US55101,55101,Racine,06,861408885,1190236349
+71,The Bristol at Tampa Rehabilitation and Nursing Center,"Tampa, Fla.",117,10,"The Bristol at Tampa Rehabilitation and Nursing Center, Tampa, Fla.",12,103,00295745,0500000US12103,12103,Pinellas,06,709243774,865801424
+119,Ambassador Nursing and Rehabilitation Center,"Detroit, Mich.",97,13,"Ambassador Nursing and Rehabilitation Center, Detroit, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+162,Seminole Pavilion Rehabilitation and Nursing Services,"Seminole, Fla.",88,14,"Seminole Pavilion Rehabilitation and Nursing Services, Seminole, Fla.",12,103,00295745,0500000US12103,12103,Pinellas,06,709243774,865801424
+181,Omni Continuing Care,"Detroit, Mich.",85,12,"Omni Continuing Care, Detroit, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+243,Imperial Healthcare Centre,"Dearborn Heights, Mich.",76,0,"Imperial Healthcare Centre, Dearborn Heights, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+269,Riviera Palms Rehabilitation Center,"Palmetto, Fla.",73,9,"Riviera Palms Rehabilitation Center, Palmetto, Fla.",12,103,00295745,0500000US12103,12103,Pinellas,06,709243774,865801424
+273,Fairlane Senior Care and Rehab Center,"Detroit, Mich.",72,16,"Fairlane Senior Care and Rehab Center, Detroit, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+274,Braden River Rehabilitation Center,"Bradenton, Fla.",72,14,"Braden River Rehabilitation Center, Bradenton, Fla.",12,103,00295745,0500000US12103,12103,Pinellas,06,709243774,865801424
+290,Landmark of Des Plaines nursing home,"Des Plaines, Ill.",70,15,"Landmark of Des Plaines nursing home, Des Plaines, Ill.",55,059,01581089,0500000US55059,55059,Kenosha,06,704208614,1248708387
+291,OakPointe Senior Care and Rehab Center,"Detroit, Mich.",70,8,"OakPointe Senior Care and Rehab Center, Detroit, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+304,Manatee Springs Rehabilitation and Nursing Center,"East Bradenton, Fla.",69,5,"Manatee Springs Rehabilitation and Nursing Center, East Bradenton, Fla.",12,103,00295745,0500000US12103,12103,Pinellas,06,709243774,865801424
+319,Westland Convalescent and Rehab Center,"Westland, Mich.",68,0,"Westland Convalescent and Rehab Center, Westland, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+324,The Fountains at Crystal Lake senior living community,"Crystal Lake, Ill.",67,8,"The Fountains at Crystal Lake senior living community, Crystal Lake, Ill.",55,059,01581089,0500000US55059,55059,Kenosha,06,704208614,1248708387
+324,The Fountains at Crystal Lake senior living community,"Crystal Lake, Ill.",67,8,"The Fountains at Crystal Lake senior living community, Crystal Lake, Ill.",55,101,01581111,0500000US55101,55101,Racine,06,861408885,1190236349
+344,Samaritan Manor Rehabilitation and Skilled Nursing,"Detroit, Mich.",66,0,"Samaritan Manor Rehabilitation and Skilled Nursing, Detroit, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+360,Regency Post0Acute and Long0Term Care,"Taylor, Mich.",65,0,"Regency Post0Acute and Long0Term Care, Taylor, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+399,Wauconda Care rehabilitation facility,"Wauconda, Ill.",61,14,"Wauconda Care rehabilitation facility, Wauconda, Ill.",55,059,01581089,0500000US55059,55059,Kenosha,06,704208614,1248708387
+399,Wauconda Care rehabilitation facility,"Wauconda, Ill.",61,14,"Wauconda Care rehabilitation facility, Wauconda, Ill.",55,101,01581111,0500000US55101,55101,Racine,06,861408885,1190236349
+423,The Bay at Woodward Health and Rehabilitation Center,"Detroit, Mich.",60,3,"The Bay at Woodward Health and Rehabilitation Center, Detroit, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+454,Boulevard Temple Care Center,"Detroit, Mich.",57,15,"Boulevard Temple Care Center, Detroit, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+474,West Bloomfield Health & Rehabilitation Center,"West Bloomfield, Mich.",56,0,"West Bloomfield Health & Rehabilitation Center, West Bloomfield, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+476,Riverview Health and Rehab Center North,"Detroit, Mich.",55,15,"Riverview Health and Rehab Center North, Detroit, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+491,The Villa at Great Lakes Crossing nursing home,"Detroit, Mich.",54,5,"The Villa at Great Lakes Crossing nursing home, Detroit, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+494,Heritage Manor Nursing and Rehabilitation Center,"Detroit, Mich.",54,2,"Heritage Manor Nursing and Rehabilitation Center, Detroit, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
+536,The Grove at the Lake nursing home,"Zion, Ill.",50,6,"The Grove at the Lake nursing home, Zion, Ill.",55,059,01581089,0500000US55059,55059,Kenosha,06,704208614,1248708387
+536,The Grove at the Lake nursing home,"Zion, Ill.",50,6,"The Grove at the Lake nursing home, Zion, Ill.",55,101,01581111,0500000US55101,55101,Racine,06,861408885,1190236349
+542,Lakepointe Senior Care and Rehab Center,"Clinton Township, Mich.",50,0,"Lakepointe Senior Care and Rehab Center, Clinton Township, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908

@@ -1,0 +1,3 @@
+group,facility,location,cases,deaths,address,STATEFP,COUNTYFP,COUNTYNS,AFFGEOID,GEOID,NAME,LSAD,ALAND,AWATER
+162,Seminole Pavilion Rehabilitation and Nursing Services,"Seminole, Fla.",88,14,"Seminole Pavilion Rehabilitation and Nursing Services, Seminole, Fla.",12,103,00295745,0500000US12103,12103,Pinellas,06,709243774,865801424
+542,Lakepointe Senior Care and Rehab Center,"Clinton Township, Mich.",50,0,"Lakepointe Senior Care and Rehab Center, Clinton Township, Mich.",26,099,01622992,0500000US26099,26099,Macomb,06,1241120517,237557908
